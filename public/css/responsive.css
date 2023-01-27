@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1200px) {  
+
+
+}
+
+/* width: 991px; */
+
+@media screen and (max-width: 61.938em) {
+    .wrapper {width: 100%!important;}
+    .anounance{border-left: none!important;padding-left: 0px!important;}
+    .new-login .login-right-img{display: none;}
+    .new-login .login-left-section{width: 100%;padding: 30px 15px 30px 15px;}
+    .market-box{margin-top: -43px;}
+.container-fluid {width: 100%;padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto}
+.footer .footer-links-1 ul li{ list-style-type:none; font-size:15px; color:#555555; display:inline-block; text-align:left; margin-bottom:15px; width:100%; float:none;}
+.forgot .checkout-form-centre .checkout-login-step {padding: 26px 22px;}
+.forgot .nav-pills .nav-link, .forgot .nav-tabs .nav-link {margin-bottom: 20px;}
+.section-complete ul li {width: 57px;margin-right:9px;}
+.forgot .checkout-form-centre .checkout-login-step {border-radius: 28px;}
+.security .sec-pro .enable .enable-btn-right {margin-right: 0px;}
+/* .security .right-searchbar .jrYYEB {width: 100%;} */
+.security h3 {font-size: 20px;margin-bottom: 5px;}
+.open-order .open-button ul li {margin-right: 11px;}
+.open-order .open-button ul li .open-btn {padding: 11px 13px;}
+.open-order .open-button ul li .active {padding: 11px 13px;}
+.security .start-table{overflow-x: scroll;}
+.security .right-searchbar select {width: 100px;}
+.security .right-searchbar .external-link {width: 40px;height: 40px;margin-right: 12px;}
+.security .right-searchbar .external-link i {font-size: 18px;}
+.security .right-searchbar .jrYYEB {width: 278px;}
+ .bank-title h3{font-size: 20px;}
+ .security .right-searchbar{margin-top: 15px;}
+ .wallet-overview .account-balance1 {margin-top: 20px;}
+ .wallet-overview .account-balance1 .estimated-value {text-align: left;}
+ .wallet-overview .account-balance .balance-ac {font-size: 23px;}
+ .wallet-overview .account-balance1 .estimated-value {font-size: 17px;margin-bottom: 10px;}
+ .verification-blue-box .flt {padding: 10px;}
+ .level-box .submit-btn .submit{width: 100%;}
+ .security .tier-box .tier-inner .disc {float: left;font-size: 18px;margin-bottom: 10px;}
+ .security .tier-box .tier-inner h3 {font-size: 18px;margin-bottom: 10px;}
+ .security .tier-box .tier-inner {margin-bottom: 10px;}
+ .referral .referral-first {padding: 5px;margin: 0px;}
+ .referral .referral-second{padding: 20px;}
+ .referral .referral-second img {width: 100%;text-align: center;height: auto;padding: 15px;}
+ .referral-code .code .code-name {margin-bottom: 15px;}
+ .token-launch .launch {margin-top: -18%;}
+ .token-launch .launch .launch-step .launch-title h2 {font-size: 19px;line-height: 28px;}
+ .bytetraders .market-tab12 .right-btn {float: left;margin-bottom: 10px;}
+
+
+}
+
+/* ipad-pro-media-query */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+   
+   
+}
+
+/* nest-hub-media-query */
+@media screen and (min-width:1024px) and (-webkit-min-device-pixel-ratio:0){
+   
+}
+/*============	Media 768Px Start ============ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+.navbar-default.navbar-trans .nav-item,
+	.navbar-default.navbar-reduce .nav-item { margin-left: 30px;}
+	.navbar-default .dropdown .dropdown-menu { border-top: 4px solid#009933; border-left: 0; display: block; position: absolute; box-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(20, 19, 18, 0.1);}
+
+}
+
+
+
+/*============ Media 300Px Star ============ */
+
+@media (max-width: 480px) {
+
+    .announcements .start-announcements .announcements-date .date {text-align: left;}
+    .account-section .account-box .account-left {display: block;}
+    .account-section .account-box .account-left .client-box{margin-bottom: 25px;}
+    .account-section .account-box .account-left .client-name h3 {font-size: 20px;}
+    .account-section .account-box .account-right {width: 100%;}
+    .account-section .account-box .account-right .account-verify {width: 100%;}
+ 
+    .withdraw-discount .withdraw-discount-white-box .total-right{font-size: 16px;}
+    .withdraw-discount .withdraw-discount-white-box .disc-total{font-size: 16px;}
+    .security .right-searchbar{width: 100%;display: block;}
+  
+}
+
+/*============ Media 320Px Start ============ */
+
+@media (max-width: 320px) {
+
+}

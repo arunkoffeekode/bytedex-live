@@ -1,0 +1,108 @@
+{
+  "name": "bytedex",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@reduxjs/toolkit": "^1.8.4",
+    "@tanstack/react-table": "^8.5.13",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "axios-progress-bar": "^1.2.0",
+    "caniuse-lite": "^1.0.30001448",
+    "clipboard-polyfill": "^4.0.0-rc1",
+    "country-state-city": "^3.1.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "downshift": "^7.0.1",
+    "formik": "^2.2.9",
+    "i18n": "^0.15.0",
+    "i18next": "^21.9.2",
+    "i18next-browser-languagedetector": "^6.1.5",
+    "i18next-http-backend": "^1.4.4",
+    "immer": "^9.0.15",
+    "jquery": "^3.6.0",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "jsencrypt": "^3.2.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "money": "^0.2.0",
+    "normalizr": "^3.6.2",
+    "numbro": "^2.3.6",
+    "numeral": "^2.0.6",
+    "pdfmake": "^0.2.5",
+    "qs": "^6.11.0",
+    "rc-slider": "^10.0.1",
+    "react": "^18.1.0",
+    "react-data-table-component": "^7.5.2",
+    "react-dom": "^18.1.0",
+    "react-gtm-module": "^2.0.11",
+    "react-i18next": "^11.18.6",
+    "react-lightbox-gallery": "^2.0.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-qr-code": "^2.0.7",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-search-autocomplete": "^7.2.2",
+    "react-slider": "^2.0.4",
+    "react-toastify": "^9.0.8",
+    "react-tooltip": "^4.2.21",
+    "react-tradingview-widget": "^1.3.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.6",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.29",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.74.0",
+    "xlsx": "^0.18.5",
+    "yup": "^0.32.11",
+    "zod": "^3.19.0"
+  },
+  "browser": {
+    "crypto": false,
+    "url": false,
+    "path-browserify": false
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}

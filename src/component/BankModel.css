@@ -1,0 +1,105 @@
+.modal-content .form-group .form-control {
+  border: 1px solid #bbbccb;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: var(--bg);
+  color: var(--text);
+  padding: 12px 30px;
+  height: 50px;
+}
+.modal-content .form-group .form-control:focus {
+  border-color: #2c6fe1;
+  box-shadow: none;
+}
+.modal-content .form-group select {
+  border: 1px solid #1a1e23;
+  height: 50px !important;
+  background-image: linear-gradient(45deg, transparent 50%, #2c6fe1 60%),
+    linear-gradient(135deg, #2c6fe1 40%, transparent 50%) !important;
+  background-position: calc(100% - 30px) 16px, calc(100% - 20px) 16px, 100% 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 100px;
+  background-size: 10px 10px, 10px 10px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: var(--bg);
+  color: var(--text);
+  outline: none;
+}
+.modal-content .form-group .frm {
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.modal-content .form-group .apnd {
+  border: 1px solid #2c6fe1;
+  background: #2c6fe1;
+  color: #fff;
+  height: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  outline: none;
+}
+.modal-content .form-group .apng {
+  border: 1px solid #05b40d;
+  background: #05b40d;
+  color: #fff;
+  height: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  outline: none;
+}
+.modal-content .form-group label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+}
+.modal-content .submit-btn .submit {
+  transition: all 0.7s ease;
+  background: #2c6fe1;
+  box-shadow: 0px 12px 12px rgba(50, 50, 71, 0.08),
+    0px 16px 24px rgba(50, 50, 71, 0.08);
+  border-radius: 100px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #2c6fe1;
+  width: 350px;
+}
+.modal-content .submit-btn {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.modal-content .submit-btn .submit:hover {
+  background: transparent;
+  border: 1px solid #2c6fe1;
+  color: #2c6fe1;
+  transition: all 0.7s ease;
+}
+
+.modal-content {
+  padding: 10px;
+  background-color: var(--bg);
+}
+@media screen and (max-width: 61.938em) {
+  .modal-content .submit-btn .submit {
+    width: 100%;
+  }
+}

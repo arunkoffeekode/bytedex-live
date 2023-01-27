@@ -1,0 +1,1840 @@
+{
+  "defaultPageTitle": "{{exchangeName}}",
+  "account": {
+    "pageTitle": "Hesap",
+    "accountVerification": {
+      "requiresKyc": "Bu özelliği kullanabilmek için kimlik doğrulama işlemlerini tamamlamalısınız.",
+      "rejected": "Vermiş olduğunuz bilgiler doğrulanamadı, lütfen tekrar deneyin",
+      "approved": "Tebrikler! Hesabınız başarıyla doğrulandı!",
+      "pending": "Vermiş olduğunuz bilgiler şu anda değerlendirilmektedir.",
+      "title": "Hesap Doğrulama",
+      "rejectionReason": "Red Sebebi",
+      "statusNew": "Hesabınızı Doğrulayın",
+      "statusRejected": "Kimlik Doğrulma Red Edildi",
+      "statusPending": "Kimlik Doğrulama Beklemede",
+      "statusApproved": "Hesap Doğrulandı",
+      "kycLevel": "Kimlik Doğrulama Kademe {{level}}",
+      "verificationMsg": "Hesap doğrulama kademeniz {{level}}",
+      "tryAgain": "Tekrar Deneyin",
+      "statusRequestInfo": "Bilgi Talebi",
+      "requestInfo": "Bilgi Talebi",
+      "startKyc": "Kimlik Doğrulama İşlemini Başlat",
+      "kycRedirectWarning": "You will now be redirected to our third party processing services relating to KYC verification, which is a separate platform owned by a third party.",
+      "quesOne": "Kimlik doğrulama için nasıl Özçekim Yapılmalı?",
+      "ansOne": "KYC İŞLEMİNE İSTEDİĞİNİZ KADEMEDEN BAŞLAYABİLİRSİNİZ. SIRALI ŞEKİLDE KYC YAPMA ZORUNLULUĞU BULUNMAMAKTADIR!\n\nLütfen bir kağıda başvuru tarihinizi yazınız. Aynı kağıda el yazınızla  \\\"Bytedex.io\\\" yazın ve pasaportunuz,sürücü belgeniz veya kimliğinizdeki imza ile uyumlu kendinize ait imzanızı atınız. Bir elinizde pasaportunuz, sürücü belgeniz yada kimliğinizden birini tutun ve diğer elinizde de kağıdı tutun. Yüzünüzün tam görünür olduğu, yazıların okunabildiği yüksek çözünürlüklü bir özçekim resmi sağlayın. Ve bu formla gönderin",
+      "quesTwo": "Adres doğrulama için hangi belgeler geçerlidir?",
+      "ansTwo": "KYC İŞLEMİNE İSTEDİĞİNİZ KADEMEDEN BAŞLAYABİLİRSİNİZ. SIRALI ŞEKİLDE KYC YAPMA ZORUNLULUĞU BULUNMAMAKTADIR!\n\nLütfen resmi ikametgah belgenizi yada son 3 ay içerisinde alınmış, elektrik, su, doğalgaz, telefon faturalarından birini yada kredi kartı ekstresini gönderin. Belgeler adınıza olmalı ve formda verdiğiniz adresle aynı adrese ait olmalıdır.",
+      "congratulations": "Congratulations!",
+      "tips": {
+        "headerFailed": "Doğrulama Başarısız! Lütfen Tekrar Deneyin!",
+        "header": "ÖNEMLİ! Lütfen bilgileri göndermeden önce aşağıdaki uyarıyı okuyun:",
+        "errorMessage": "Eğer bu mesajı okuyorsanız hesap doğrulaması için önceki başvurunuz red edilmiştir. Bu bir çok sebepten olabilir lütfen aşağıdaki açıklamaları tekrar okuyun.",
+        "vpn": "VPN Uygulaması kullanıyoranız lütfen kapatın! VPN kullanımı genel olarak uygun bulunmamaktadır. ",
+        "public": "Sürekli kamuya açık Wi-Fi kullanımı doğrulama işlemlerinizi olumsuz etkileyebilir. Lütfen doğrulama işleminizi ev, ofis gibi sürekli bulunduğunuz bir yerden bağlanarak yapınız.",
+        "completed": "Doğrulama işlemi tamamlandığında otomatik olarak oluşturulmuş bir eposta alacaksınız. Eğer eposta gönderilmediğini düşünüyorsanız İstenmeyen Eposta (Spam) klasörünü kontrol ediniz. Eğer size gönderdiğimiz epostalar istenmeyen epostalar (spam) klasörüne düşüyorsa, lütfen eposta adresimizi güvenli gönderici olarak işaretleyin. Bu genelde eposta üzerinde \"Spam Değil\" butonuna tıklayarak yapılabilir."
+      }
+    },
+    "affiliates": {
+      "link": "Referanslar",
+      "title": "Referans Komisyonları",
+      "myRefId": "Referans Kodu:",
+      "rLevel1": "R-Level 1",
+      "rLevel2": "R-Level 2",
+      "rLevel3": "R-Level-3",
+      "referrals": "Referanslar",
+      "commission": "Komisyon",
+      "shareLink": "Kayıt başına ödül almak için bu referans linkini arkadaşlarınızla paylaşın! İndirim ve Koin/Token bonuslarını kaçırmayın!",
+      "60d": "Son 60 Gün",
+      "120d": "Son 120 Gün",
+      "allTime": "Tüm Zamanlar",
+      "referralLink": "Referans Linki",
+      "referralCode": "Referans Kodu",
+      "copyLink": "Başarıyla Kopyalandı!",
+      "tiers": "Referans Kademeleri",
+      "earnings": "Referans Kazançları",
+      "feeShare": "Komisyon Paylaşımı",
+      "currency": "Birim",
+      "usersReferred": "Referans olunan kullanıcılar",
+      "multipleTiers": "Referanslarınız, platformumuza başkalarının üye olmasını sağladığında yeni üyelerin işlem komisyonlarından siz de belli oranda ödül kazanacaksınız.",
+      "90d": "Last 90 Days"
+    },
+    "apiKeys": {
+      "link": "Api Anahtarları",
+      "title": "Api Anahtarları",
+      "mustEnableGauth": "Bu özelliği kullanmak için  $t(multiFactorAuth.name) kullanımını etkinleştirin.",
+      "message": "Byte Exchange ile etkileşim kurmak için bu API anahtarlarını kullanın.",
+      "message2": "API anahtarı oluştururken özel anahtarınızı yedeklediğinizden emin olun. Sadece 1 defa görebileceksiniz.",
+      "success": {
+        "public": "Açık Anahtar",
+        "private": "Özel Anahtar",
+        "message": "ÖZEL ANAHTARINIZI MUTLAKA YEDEKLEYİN! BİR DEFA GÖSTERİLECEKTİR!"
+      }
+    },
+    "changePassword": {
+      "link": "Şifreyi Değiştir!"
+    },
+    "deviceWhitelisting": {
+      "link": "Onaylı Cihazlar",
+      "title": "Onaylı Cihazlar",
+      "warningMessageOptions": "Cihaz değiştirerek devam etmek istiyor musunuz?",
+      "yes": "Evet",
+      "no": "Hayır",
+      "submit": "Gönder",
+      "warning": "Uyarı!",
+      "warningMessage": "Bu değişiklik tüm geçmiş oturumlarınızı ve mevcut oturumunuzu kapatacaktır. Lütfen mevcut IP adresinizi platformda onaylı IP olarak kayıt ettiğinizden emin olun. Bu özelliği dikkatli kullanmanız için sizi uyarıyoruz. Eğer İnternet Servis Sağlayıcınızdan sabit IP hizmeti almıyorsanız hesabınız kilitlenebilir."
+    },
+    "feeDiscount": {
+      "link": "BEXT Token",
+      "title": "BEXT Token Komisyon İndirimi",
+      "enroll": "Etkinleştir",
+      "disenroll": "Devredışı Bırak",
+      "details": "{{exchangeToken}} komisyon ödeme programına katıldığınızda, işlem ücretleriniz {{exchangeToken}} güncel fiyatı üzerinden hesaplanarak program komisyon indirimi yapıldıktan sonra mevcut {{exchangeToken}} bakiyenizden tahsil edilir.  ",
+      "payInToken": "{{exchangeToken}} ile İndirimli İşlem Ücreti Ödeme",
+      "discountDetails": "İşlem ücreti indiriminiz hesabınızdaki {{exchangeToken}} miktarına göre belirlenecektir. Daha fazla indirim almak için Hemen {{exchangeToken}} alın!"
+    },
+    "ip-whitelisting": {
+      "link": "IP Onaylama",
+      "warning": "Uyarı!",
+      "warningMessage": "Bu değişiklik tüm geçmiş oturumlarınızı ve mevcut oturumunuzu kapatacaktır. Lütfen mevcut IP adresinizi platformda onaylı IP olarak kayıt ettiğinizden emin olun. Bu özelliği dikkatli kullanmanız için sizi uyarıyoruz. Eğer İnternet Servis Sağlayıcınızdan sabit IP hizmetiniz yoksa hesabınız kilitli kalabilir.",
+      "warningMessageOptions": "Bu değişikliği onaylıyor musunuz?",
+      "yes": "Evet",
+      "no": "Hayır",
+      "submit": "Gönder",
+      "addIPButton": "IP Adresi Ekle",
+      "headingIPAddress": "IP Adresleri",
+      "inputLabel": "IP Adresi",
+      "inputIPvalidation": "Geçersiz IP"
+    },
+    "overview": {
+      "link": "Genel Görünüm",
+      "cellular": "Cep Telefonu:",
+      "joinedOn": "Katılım:",
+      "loginHistory": "Güncel Giriş Geçmişi",
+      "customerId": "Kullanıcı No:"
+    },
+    "phoneVerification": {
+      "link": "Telefon Numarası Doğrulama",
+      "selectCountry": "Ülke Seçimi",
+      "mobileNumber": "Cep Telefonu Numarası",
+      "requestOTP": "Doğrulama Kodu Talep Et",
+      "smsVerificationMsg": "{{mobileNumber}} numarasına iletilen doğrulama kodunu giriniz",
+      "mobileOTP": "Cep Telefonu Doğrulama",
+      "enable": "Etkinleştir",
+      "country": "Ülke",
+      "disable": "Devre Dışı Bırak",
+      "submit": "Gönder",
+      "countryRequired": "Lütfen Ülke Seçiniz",
+      "mobileNumberRequired": "Lütfen Cep Telefonu Numaranızı Giriniz"
+    },
+    "security": {
+      "link": "Güvenlik",
+      "boxHeading": "{{exchangeName}} güvenliğiniz için 2 adımlı doğrulamayı kullanmanızı şiddetle tavsiye eder.",
+      "boxParagraphFirst": "İki adımlı doğrulama, hem şifrenizin kullanımı hem de yeni tür bir doğrulama sistemi ile  güvenliğinizi önemli ölçüde arttırır. {{exchangeName}} İki adımlı doğrulama için  <1>$t(multiFactorAuth.name)</1> kullanır. İki adımlı doğrulamayı etkinleştirmek için $t(multiFactorAuth.name) uygulamasını telefonunuza indirin ve QR kodunu okutun. Doğrulama kodunuzu kullanmaya başlayabilirsiniz.",
+      "boxParagraphSecond": "{{exchangeName}} ile İki adımlı doğrulama kodu sağlayıcınızı ilişkilendirdikten sonra size verilen $t(multiFactorAuth.length) haneli kodu kullanın.",
+      "twoFactorText": "İki Adımlı Doğrulama (2FA)",
+      "twoFactorEnabled": "( Etkin )",
+      "twoFactorDisabled": "( Devredışı )",
+      "secretKey": "Özel Anahtar*",
+      "secretKeyBackupSpan": "* Özel Anahtarınızı Lütfen Yedekleyin!",
+      "secretKeyBackupParagraph": "İki Adımlı Doğrulama işlevini sıfırlamak istemeniz durumunda support.bytedex.io destek merkezinde bir yardım talebi oluşturun.",
+      "authFormTitleEnabled": "$t(multiFactorAuth.name) Etkinleştirme",
+      "authFormTitleDisabled": "$t(multiFactorAuth.name) Devredışı Bırakma"
+    },
+    "tradingDiscount": {
+      "link": "İşlem Hacmi İndirimi",
+      "title": "İşlem Hacmi İndirimi",
+      "tier": "Kademe {{tier}}",
+      "discountValue": "{{percent}}% İndirim",
+      "description": "Geçmiş 30 günlük işlem hacminiz günlük olarak hesaplanarak indirim yansıtılır. Daha fazla indirim almak için her gün Byte Exchange üzerinde işlem yapın! Çünkü Burası Sizin Borsanız!"
+    },
+    "verification": {
+      "link": "Hesap Doğrulama"
+    }
+  },
+  "apiDocumentation": {
+    "dataStream": "Veri Akışı",
+    "documentation": "API Dokümantasyonu"
+  },
+  "blockAccount": {
+    "success": "Hesap başarıyla bloke edildi.",
+    "restore": "Hesabınızı tekrar aktive edebilmek için lütfen support.bytedex.io adresinden bir yardım başvurusu oluşturun.",
+    "loginMessage": "Bu hesap askıya alınmıştır. Lütfen support.bytedex.io adresinden bir yardım başvurusu oluşturun.",
+    "question": "Bu hesabı bloke etmek istediğinizden emin misiniz?"
+  },
+  "buttons": {
+    "login": "Giriş",
+    "logout": "Çıkış",
+    "submit": "Gönder",
+    "signUp": "Kayıt",
+    "copy": "Kopyala",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "delete": "Sil",
+    "yes": "Evet",
+    "no": "Hayır",
+    "addKey": "Yeni Anahtar Ekle",
+    "enable2FA": "2 Adımlı Doğrulamayı Etkinleştir",
+    "enableKyc": "Kimlik Doğrulamayı Etkinleştir",
+    "disable2FA": "2 Adımlı Doğrulamayı Devre dışı Bırak",
+    "deposit": "Yatırma",
+    "withdrawal": "Çekim",
+    "forgotPassword": "Şifreni mi Unuttun?",
+    "exportData": "Veri Aktar",
+    "disabled": "Devre dışı",
+    "accept": "Kabul",
+    "decline": "Red",
+    "addMore": "Daha Fazla Ekle..",
+    "reload": "Yeniden Yükleme",
+    "transfer": "Transfer",
+    "moveFunds": "Move"
+  },
+  "connectivity": {
+    "connectionLost": "Bağlantı Yenileniyor. Lütfen Bekleyin!"
+  },
+  "cookieConsent": {
+    "title": "{{exchangeName}} daha iyi hizmet verebilmek için çerezler kullanmaktadır.",
+    "description": "Bu web sitesi kullanıcı deneyimini iyileştirmek için çerezler kullanmaktadır.",
+    "more": "Çerez Kullanım Politikası"
+  },
+  "currencies": {
+    "price": "Fiyat",
+    "marketCap": "Market Kapasitesi",
+    "circulatingSupply": "Sirküle olan Arz",
+    "issueDate": "Çıkış Tarihi",
+    "issuePrice": "Çıkış Fiyatı",
+    "notFound": "Birim Bulunamadı",
+    "noDescription": "{{currency}} için herhangi bir bilgi bulunamadı"
+  },
+  "derivatives": {
+    "pageTitle": "Margin Account Overview",
+    "overview": {
+      "link": "Margin Account Overview",
+      "currency": "Currency",
+      "transferTo": "Transfer to",
+      "balance": "Balance",
+      "spotbalance": "Spot balance",
+      "marginbalance": "Margin balance",
+      "amount": "Amount"
+    }
+  },
+  "documentation": {
+    "title": "Borsa Dokümantasyonu",
+    "redoc": "API Dokümantasyonu",
+    "dataStream": "Veri Akışı Dokümantasyonu"
+  },
+  "errorPages": {
+    "error451": "Yasal nedenler ile bölgenize hizmet verilememektedir.",
+    "generalError": "Birşeyler Yanlış gitti. Bir süre sonra tekrar deneyin.",
+    "pageNotFound": "Aradığınız sayfa bulunamadı."
+  },
+  "exchange": {
+    "chart": "Grafik",
+    "openOrders": "Açık Emirler",
+    "orderHistory": "İşlem Geçmişi",
+    "portfolio": "Portföy",
+    "orderBook": "Emir Defteri",
+    "tradeHistory": "İşlemler",
+    "price": "Fiyat",
+    "size": "Miktar",
+    "total": "Toplam",
+    "time": "Zaman",
+    "minNumber": "0.00000001'den büyük olmalıdır.",
+    "limitOrder": "Limit",
+    "marketOrder": "Market",
+    "stopOrder": "Stop",
+    "BUY": "AL",
+    "SELL": "SAT",
+    "avgPrice": "Ortalama Fiyat",
+    "baseTotal": "Toplam {{baseCurrency}}",
+    "quoteTotal": "Toplam {{quoteCurrency}}",
+    "cryptonews": "Crypto News",
+    "askTotal": "Ask Total",
+    "bidTotal": "Bid Total",
+    "depthChart": {
+      "title": "Derinlik Grafiği",
+      "price": "Fiyat",
+      "volume": "Hacim",
+      "totalVolume": "Toplam Hacim"
+    }
+  },
+  "footer": {
+    "riskAndAdvisory": "Riskler ve Tavsiyeler",
+    "support": "Destek",
+    "disclaimer": "Sorumluluk Reddi Beyanı:  {{exchangeName}} üzerinde dijital ürünlerin satın alınması Kullanım koşulları ve Gizlilik Sözleşmelerine bağlıdır. Bu siteye erişim sağlayarak Kullanım koşullarını ve Gizlilik Politikasını kabul etmiş sayılırsınız.",
+    "advisory": "UYARI: Dijital varlıklar herhangi bir merkez bankası ve hükümet tarafından desteklenmemektedir. Dijital varlıkların değeri arz ve talep ekonomisine göre belirlenmekte olup, geleneksel birimlere göre daha iniş çıkışlıdır. Dijital varlıkların alım satımı ciddi riskler barındırmakta, çok iniş çıkışlı piyasa fiyatlarının neden olduğu ciddi dalgalanmalar, ani kırılmalar, piyasa manipülasyonları ve siber güvenlik sorunları barındırmaktadır. Ek olarak dijital varlık piyasaları ve borsaları standart yatırım ve borsacılık işlemlerinin barındırmış olduğu yasal altyapı ve kullanıcı kontrollerine sahip değildir. Dijital varlık alım satımları için temel piyasa gereklidir. Dijital varlık alım satımı yapmaya karar verdiğinizde dünya genelindeki alım satım yapan kişilerle rekabet edeceksiniz demektir. Bu nedenle dijital varlık alım satımı için  yeterli bilginiz ve tecrübeniz olmalıdır. Dijital Varlık alım satımı  için banka kredileri, burslar, acil durum fonları yada ihtiyacınız olan yada yakın gelecekte ihtiyaç duyabileceğiniz parasal kaynaklar kullanmaktan imtina etmelisiniz. Dijital varlık alım satımları geri döndürülemeyecek büyük ve ani finansal kayıplara sebep olabilir. Piyasa koşulları içerisinde alım satım yaparken belli pozisyondaki işlemlerinizi uygun bir piyasa fiyatıyla kapatmak zor yada imkansız olabilir. Bu gibi durumlar örneğin belli bir dijital varlığın fiyatının aniden düşmesinde veya ani bir haber neticesinde genel piyasada geri çekilme yaşandığında veya alışılmadık alım satım aktiviteleri ortaya çıktığında veya dijital varlık piyasasından kaynaklı herhangi bir diğer sebepten ötürü gerçekleşebilir. Dijital Varlıkların riskleri hakkında bir çok ulusal ve uluslararası kuruluş tavsiye olarak yayınlar çıkarmışlardır. Daha fazla bilgi için lütfen TC Hazine ve Maliye Bakanlığı ve TC Cumhurbaşkanlığı karar ve tavsiyelerini okuyunuz.",
+    "legal": "Bytedex Technologies OÜ ve PlanModern Bilişim Ltd. Şti. sahibi olduğu {{exchangeName}} herhangi bir yatırım tavsiyesi vermez yada önermez. Web sitelerimizde yada yayınlarımızda belirtilen hiçbir ifade, yada belge bilgi ve doküman bir alım satım tavsiyesi olarak yorumlanamaz.",
+    "currencies": "Kripto Birimleri",
+    "apiDocumentation": "API Dokümantasyonu",
+    "fees": "Borsa İşlem Komisyonları",
+    "tradingRules": "Alım Satım Kuralları",
+    "more": "Daha Fazla",
+    "assetStatus": "Varlıklarınız",
+    "copyright": {
+      "company": "Copyright © {{year}} by {{exchangeName}}",
+      "rights": "Tüm hakları saklıdır."
+    },
+    "links": {
+      "home": "Market",
+      "trade": "Alım Satım",
+      "account": "Hesap",
+      "Orders": "Emirler",
+      "wallet": "Cüzdan"
+    },
+    "pages": {
+      "AboutUs": "Hakkımızda",
+      "ContactUs": "Bize Ulaşın",
+      "PrivacyPolicy": "Gizlilik Politikası",
+      "CookiePolicy": "Çerezler",
+      "RiskDisclosure": "Risk Bildirimi",
+      "TermsOfService": "Hizmet Koşulları"
+    }
+  },
+  "forms": {
+    "coinBalance": "Bakiye:",
+    "estimatedFee": "Tahmini komisyon:",
+    "accountVerification": {
+      "title": "Eposta Doğrulama",
+      "email": {
+        "placeholder": "Eposta adresinizi giriniz"
+      }
+    },
+    "additionalInformation": {
+      "heading": "Ek Bilgi Gerekiyor..",
+      "description": "Giriş yapabilmek için formu doldurun.",
+      "successMessage": "Bilgi başarıyla kaydedildi."
+    },
+    "changePassword": {
+      "title": "Şifrenizi değiştirin",
+      "otpNotWorking": "Kod çalışmıyor mu? Yeni bir tane talep edin.",
+      "otpEmail": "Şifrenizi değiştirmek için eposta adresinize geçici bir şifre göndereceğiz. Lütfen aşağıdaki butona tıklayın.",
+      "requestOtp": "Kod Talep Et",
+      "requestNewOtp": "Yeni Kod Talep Et",
+      "newPassword": {
+        "placeholder": "Yeni şifrenizi girin"
+      },
+      "newPasswordConfirm": {
+        "placeholder": "Yeni şifrenizi tekrar girin"
+      },
+      "oldPassword": {
+        "placeholder": "Eski şifrenizi girin"
+      },
+      "otp": {
+        "gAuthPlaceholder": "$t(multiFactorAuth.name) kodunu girin",
+        "emailPlaceholder": "Epostanıza gönderilen kodu girin"
+      }
+    },
+    "common": {
+      "gAuth": "$t(multiFactorAuth.name) kodu",
+      "month": "Ay",
+      "day": "Gün",
+      "year": "Yıl",
+      "fileDialog": "Yüklemeyi Başlat",
+      "imagePreview": "Yükleme Öngörünümü",
+      "document": "Yatırma Kanıtı (Opsiyonel)",
+      "documentUploaded": "Belge Yükleme Başarıyla Tamamlandı.",
+      "download": "İndirme",
+      "select": "Seçim",
+      "search": "Arama İfadenizi Girin",
+      "loginOrRegister": "<0>Giriş Yap</0> veya <2>Kayıt Ol</2>",
+      "yes": "Evet",
+      "no": "Hayır",
+      "browse": "Araştır",
+      "clearPdf": "PDF'i kaldır",
+      "clearImage": "Resmi kaldır"
+    },
+    "createApiKey": {
+      "title": "API anahtarı oluştur.",
+      "maxIpAddresses": "Her API anahtarı için 3 adet IP adresi kullanılabilir. IP adreslerini virgül ile ayrılmış şekilde yazın.",
+      "button": "Anahtar oluştur.",
+      "gAuth": {
+        "placeholder": "$t(multiFactorAuth.name) kodunu girin"
+      },
+      "ip": {
+        "placeholder": "Doğrulanmış IP adresi girin",
+        "allowAll": "Hepsine izin ver"
+      }
+    },
+    "enableGoogleAuth": {
+      "authCode": {
+        "placeholder": " $t(multiFactorAuth.length) haneli Google Authenticator doğrulama kodunu girin."
+      }
+    },
+    "fiatDeposit": {
+      "formNotice": "Banka transferi yaptığınızda lütfen aşağıdaki formu doldurun. Böylelikle ekibimiz transferinizi takip edebilecek ve cüzdanınıza yansıtacaktır.",
+      "bank": "Banka transferi (EFT/Havale)",
+      "online": "Kredi kartı/Banka kartı ile yatırma işlemi",
+      "paymentMethod": "Yatırma işlemi biçimini seçin ",
+      "bankName": {
+        "label": "Alıcı Banka Ünvanı"
+      },
+      "comments": {
+        "label": "Vermek istediğiniz ek bilgiler"
+      },
+      "notice": {
+        "title": "Banka transferi (EFT/Havale) ile yatırma",
+        "note": "Banka transferi yapabilmek için aşağıdaki bilgileri kullanın."
+      },
+      "proof": {
+        "label": "Dekont/ Belge Yükleyin (Opsiyonel)"
+      },
+      "requestAmount": {
+        "label": "Yatırılan Para Birimi Miktarı"
+      },
+      "submitted": {
+        "title": "Teşekkürler",
+        "message": "Bilgileriniz başarıyla kaydedildi. Yatırıma işleminiz tamamlandığında sizi bilgilendireceğiz.",
+        "return": "Geri"
+      },
+      "transactionId": {
+        "label": "Banka Transferi işlem numarası"
+      }
+    },
+    "fiatDepositPg": {
+      "warning": "<0>Not:</0> İşlem bilgilerinizin girişini tamamladığınızda ödeme sistemine yönlendirileceksiniz.",
+      "redirecting": "Yatırma işlemi için yönlendiriliyorsunuz..",
+      "submit": "Ödemeye Git",
+      "achmessage": "Talebinizi aldık ve işlemlerinize başlıyoruz.",
+      "amount": {
+        "label": "Yatırma miktarını giriniz"
+      },
+      "charge": {
+        "label": "Toplam İşlem Bedeli (Komisyonlar Dahildir.)"
+      },
+      "comment": {
+        "label": "Ek Bilgi Giriniz (Opsiyonel)"
+      },
+      "disclaimer": {
+        "title": "UYARI",
+        "text": "Kredi/Banka kartı ödeme servisine yönlendiriliyorsunuz, bu servis 3. taraflarca verilmektedir.",
+        "label": "Uyarıları okudum ve onaylıyorum.",
+        "error": "Devam edebilmek için onay vermelisiniz."
+      },
+      "fee": {
+        "label": "İşlem Komisyonu"
+      },
+      "fixedFee": {
+        "label": "Sabit Komisyon "
+      },
+      "maxDeposit": {
+        "label": "En Fazla Yatırma limiti"
+      },
+      "maxFee": {
+        "label": "En Fazla komisyon"
+      },
+      "minDeposit": {
+        "label": "En Az Yatırma limiti"
+      },
+      "minFee": {
+        "label": "En Az komisyon"
+      },
+      "percentFee": {
+        "label": "Yüzdelik Komisyon"
+      },
+      "selectBank": {
+        "label": "Banka Seçimi"
+      }
+    },
+    "fiatWithdrawalManual": {
+      "confirmWithdrawal": "Çekim işlemini onayla",
+      "paymentMethod": "Bir Çekim Yöntemi Seçiniz",
+      "achmessage": "Talebinizi aldık ve işlemlerinize başlıyoruz.",
+      "SelectBank": "Banka Hesabı Seçin",
+      "Addbank": "Banka Hesabı Ekle",
+      "bankname": "Banka Tam Ünvanı",
+      "accountnumber": "Hesap No",
+      "accounttype": "Hesap Türü",
+      "accountCurrency": "Hesap Para Birimi ",
+      "swiftcode": "Swift Kodu (Uluslararası transferler) ",
+      "routingcode": "Banka Routing Kodu (Uluslararası transferler) ",
+      "emailVerificationMsg": "{{email}} adresine gönderilen doğrulama kodunu giriniz.",
+      "smsVerificationMsg": "{{mobileNumber}} numarasına iletilen doğrulama kodunu giriniz",
+      "accountNumber": {
+        "placeholder": "IBAN Hesap No"
+      },
+      "amount": {
+        "label": "Çekim Miktarını Giriniz"
+      },
+      "bankName": {
+        "placeholder": "Banka Ünvanı"
+      },
+      "bankRoutingCode": {
+        "placeholder": "Banka Router kodu (Yurtiçi gönderimler için buraya \"Invalid\" yazın)"
+      },
+      "beneficiaryName": {
+        "placeholder": "Hesap sahibi adı soyadı"
+      },
+      "emailandSMSVerificationCode": {
+        "placeholder": "Eposta Doğrulama Kodu"
+      },
+      "fixedFee": {
+        "label": "Sabit Komisyon "
+      },
+      "maxFee": {
+        "label": "En Fazla Komisyon"
+      },
+      "maxWithdrawal": {
+        "label": "En Çok Çekim Miktarı"
+      },
+      "minFee": {
+        "label": "En Az Komisyon"
+      },
+      "minWithdrawal": {
+        "label": "En Az Çekim Miktarı"
+      },
+      "percentFee": {
+        "label": "Komisyon Yüzdesi"
+      },
+      "requestAmount": {
+        "placeholder": "Talep edilen çekim miktarı"
+      },
+      "selectBank": {
+        "label": "Banka Seçiniz"
+      },
+      "smsVerificationCode": {
+        "placeholder": "SMS Doğrulama Kodu"
+      },
+      "swiftCode": {
+        "placeholder": "Swift Kodu (Yurtiçi gönderimler için buraya \"Invalid\" yazın)"
+      }
+    },
+    "forgotPassword": {
+      "title": "Şifre Sıfırlama",
+      "email": {
+        "placeholder": "Kayıtlı Eposta adresinizi girin"
+      }
+    },
+    "limitOrder": {
+      "rate": "Fiyat",
+      "volume": "Miktar",
+      "total": "Toplam",
+      "goodTillCancelled": "İptal edilene kadar kalsın",
+      "immediateOrCancel": "Hemen yada İptal",
+      "fillOrKill": "İşlem yada İptal",
+      "dayOnly": "Gün sonuna kadar",
+      "button": "$t(exchange.{{side}}) {{baseCurrency}}"
+    },
+    "login": {
+      "title": "Giriş",
+      "button": "Giriş",
+      "email": {
+        "placeholder": "Eposta adresinizi giriniz"
+      },
+      "password": {
+        "placeholder": "Şifrenizi giriniz"
+      }
+    },
+    "marketOrder": {
+      "rate": "Fiyat",
+      "marketPrice": "Piyasa Fiyatı",
+      "volume": "Miktar",
+      "goodTillCancelled": "İptal edilene kadar kalsın",
+      "immediateOrCancel": "Hemen yada İptal",
+      "fillOrKill": "İşlem yada İptal",
+      "dayOnly": "Gün sonuna kadar",
+      "button": "$t(exchange.{{side}}) {{baseCurrency}}"
+    },
+    "postOffer": {
+      "iWantToSell": "I want to sell",
+      "iWantToBuy": "I want to buy",
+      "buy": "Buy",
+      "sell": "Sell",
+      "min": "mins",
+      "asset": "Asset",
+      "withCash": "With Cash",
+      "yourPrice": "Your Price",
+      "lowestOrderPrice": "Lowest Order Price",
+      "highestOrderPrice": "Highest Order Price",
+      "priceType": "Price Type",
+      "fixed": "Fixed",
+      "floating": "Floating",
+      "floatingPriceMargin": "Floating Price Margin",
+      "pricingFormula": "Pricing formula",
+      "totalAmount": "Total Amount",
+      "available": "Available",
+      "orderLimit": "Order Limit",
+      "paymentMethod": "Payment Method",
+      "addNewMethod": "Add New Method",
+      "paymentTimeLimit": "Payment Time Limit",
+      "counterpartyConditions": "Counterparty Conditions",
+      "completedKYC": "Completed KYC",
+      "registered": "Registered",
+      "daysAgo": "days(s) ago",
+      "holdingMoreThan": "Holdings more than",
+      "status": "Status",
+      "onlineRightNow": "Online right now",
+      "offlineManuallyLater": "Offline, manually later",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "confirmToPost": "Confirm to Post",
+      "confirmToPostWarning": "After publishing the $t(values.{{Side}}) Post, the trading assets will be frozen.",
+      "totalTradingAmount": "Total Trading Amount",
+      "type": "Type",
+      "currency": "Currency",
+      "reservedFee": "Reserved Fee",
+      "notCompletedKYC": "Not Completed KYC",
+      "autoReply": {
+        "label": "Auto Reply (Optional)",
+        "placeholder": "Auto reply message will be sent to the counterparty once the order is created."
+      },
+      "remarks": {
+        "label": "Remarks (Optional)",
+        "placeholder": "Please do not include any cryto-related words, such as crypto, P2P, C2C, BTC, USDT, ETH etc."
+      }
+    },
+    "resetPassword": {
+      "title": "Şifre Sıfırlama",
+      "email": {
+        "placeholder": "Eposta adresinizi giriniz"
+      },
+      "newPassword": {
+        "placeholder": "Yeni şifrenizi belirleyin"
+      },
+      "newPasswordConfirm": {
+        "placeholder": "Yeni şifrenizi tekrar girin"
+      }
+    },
+    "signUp": {
+      "title": "Kayıt",
+      "mobileOtpButton": "Doğrulama Kodu Talep Et",
+      "countryRequired": "Ülke Seçimi boş bırakılamaz",
+      "mobileNumberRequired": "Cep telefonu alanı boş bırakılamaz.",
+      "mobileOtpSuccessMessage": "Doğrulama kodu cep telefonunuza gönderildi.",
+      "agree": {
+        "label": "{{exchangeName}} tarafından bu hizmetlerin kullanımı için oluşturulmuş tüm kullanım şartlarını ve hizmet kurallarını kabul ediyorum.",
+        "validation": "Kayıt işlemini tamamlamak için kullanım şartlarını ve hizmet kurallarını kabul etmelisiniz."
+      },
+      "confirmPassword": {
+        "placeholder": "Oluşturulan Şifrenizi Tekrar Girin"
+      },
+      "country": {
+        "placeholder": "İkamet ettiğiniz ülkeyi giriniz"
+      },
+      "emailAddress": {
+        "placeholder": "Eposta Adresinizi Giriniz"
+      },
+      "firstName": {
+        "placeholder": "Adınızı Giriniz"
+      },
+      "lastName": {
+        "placeholder": "Soyadınızı Giriniz"
+      },
+      "middleName": {
+        "placeholder": "İkinci İsim (varsa)"
+      },
+      "mobileNumber": {
+        "placeholder": "Cep telefonu numaranızı giriniz"
+      },
+      "mobileOTP": {
+        "placeholder": "Cep telefonu doğrulama kodunu girin"
+      },
+      "password": {
+        "placeholder": "Şifre Oluşturun"
+      },
+      "refferalCode": {
+        "placeholder": "Referans Kodu"
+      },
+      "selectCountry": {
+        "placeholder": "Ülke Seçimi"
+      },
+      "success": {
+        "heading": "Kayıt işlemi başarılı!",
+        "message": "Eposta adresinize bir doğrulama bağlantısı gönderildi."
+      }
+    },
+    "stopOrder": {
+      "stopPrice": "Stop",
+      "rate": "Limit",
+      "volume": "Miktar",
+      "total": "Toplam",
+      "button": "$t(exchange.{{side}}) {{baseCurrency}}",
+      "stopLimit": "Stop Limit",
+      "stopMarket": "Stop Market",
+      "trailingStop": "Trailing Stop Market",
+      "invalidOrderSide": "Emir işlem tarafı bu emir türü için uygun değildir.",
+      "trail": "Trail",
+      "absolute": "Kesin Trailing Değeri",
+      "percentage": "Trailing Değer Oranı"
+    },
+    "twoFaLogin": {
+      "resendOtp": "Giriş doğrulama kodunu tekrar gönder",
+      "button": "Giriş",
+      "requestDeviceOtp": "Cihaz Doğrulama Kodu Talep Et",
+      "timeRemaining": "Kalan Zaman: {{timeRemaining}}",
+      "deviceAuth": {
+        "placeholder": "Cihaz Doğrulama Kodunu Giriniz"
+      },
+      "emailAuth": {
+        "placeholder": "Giriş doğrulama kodunu giriniz"
+      },
+      "googleAuth": {
+        "placeholder": "$t(multiFactorAuth.length) haneli $t(multiFactorAuth.name) kodunu girin"
+      }
+    },
+    "validations": {
+      "email": "Bu alan standart formatta olmalıdır.",
+      "general": "Bu alan standart formatta olmalıdır.",
+      "required": "Bu alan gereklidir.",
+      "password": "Şifreniz en az 8 karakter ve en az 1 büyük harf ve en az 1 rakam içermelidir.",
+      "passwordMatch": "Girilen şifreler uyumsuzdur.",
+      "min": "En Az {{length}} karakter girilmelidir.",
+      "max": "En Fazla  {{length}} karakter girilebilir.",
+      "minNumber": "En az {{number}} veya üstü olmalıdır.",
+      "maxNumber": "En fazla {{number}} veya üstü olmalıdır.",
+      "invalidDate": "Geçerli bir tarih girin.",
+      "invalidFile": "Geçersiz dosya türü",
+      "fileTooLarge": "Dosya boyutu izin verilenden daha büyük",
+      "referralId": "Geçersiz Referans Kodu",
+      "invalidPDF": "Hatalı dosya biçimi! Lütfen PDF formatında ekleme yapın.",
+      "orderLowerLimit": "Lower limit must be less than or equal to ${max}",
+      "orderUpperLimit": "Upper limit must be less than or equal to ${max}",
+      "paymentMethodMin": "Must be at least 1 method",
+      "paymentMethodMax": "Must not be more than 1 method",
+      "noSpacesAllowed": "No spaces allowed."
+    },
+    "walletWithdrawal": {
+      "confirmWithdrawal": "Çekim işlemini onayla",
+      "emailOtpButton": "Doğrulama Kodu Talep Et",
+      "emailVerificationMsg": "{{email}} adresine gönderilen doğrulama kodunu giriniz.",
+      "smsVerificationMsg": "{{mobileNumber}} numarasına iletilen doğrulama kodunu giriniz",
+      "emailOtp": "Email OTP",
+      "address": {
+        "placeholder": "{{currency}} Cüzdan Adresi"
+      },
+      "addressTag": {
+        "placeholder": "{{currency}} Address Tag"
+      },
+      "amount": {
+        "placeholder": "Miktar"
+      },
+      "emailandSMSVerificationCode": {
+        "placeholder": "Eposta Doğrulama Kodu"
+      },
+      "memoId": {
+        "placeholder": "{{currency}} Memo ID"
+      },
+      "smsVerificationCode": {
+        "placeholder": "SMS Doğrulama Kodu"
+      }
+    }
+  },
+  "generics": {
+    "login": "Giriş Yap",
+    "or": "yada",
+    "register": "Kayıt Ol",
+    "enabled": "Etkinleştirildi",
+    "disabled": "Engellendi",
+    "orderTypes": {
+      "STOP": "Stop Limit",
+      "STOPMARKET": "Stop Market",
+      "TRAILINGSTOPMARKET": "Trailing Stop Market",
+      "STOPLIMIT": "Stop Limit",
+      "LIMIT": "Limit",
+      "MARKET": "Market"
+    }
+  },
+  "instaTrade": {
+    "title": "Borsaiçi Satış",
+    "purchaseCurrency": "Birim",
+    "paymentMethod": "Ödeme Yöntem",
+    "selectPair": "Lütfen İşlem Birimini ve Ödeme Yöntemini Seçin",
+    "rate": "Fiyat",
+    "min": "En Az",
+    "max": "En Çok",
+    "fee": "İşlem Ücreti",
+    "total": "Genel Toplam",
+    "subTotal": "Toplam",
+    "balance": "Bakiye",
+    "receive": "Toplam Alınan",
+    "purchasing": " {{currency}} Alımı",
+    "reserve": "Geçerli Bakiye",
+    "tradeHistory": "İşlem Geçmişi",
+    "amount": "Miktar",
+    "estimate": "1 {{currency}} yaklaşık olarak",
+    "youHave": "Bakiyeniz:",
+    "payment": "Ödeme Miktarı",
+    "spendBetween": "{{min}} ile {{max}} {{currency}} arasında işlem yap",
+    "feeText": "Bu bakiye işlem ücretleri alındıktan sonraki yaklaşık değerdir.",
+    "buy": "{{currency}} Al",
+    "sec": "sec",
+    "timeLeft": "Time Left"
+  },
+  "layoutOptions": {
+    "customLayouts": "Kişisel Ekranlar Etkinleştirilsin mi?",
+    "info": "Kişisel Ekranlar etkinleştirildiğinde borsa sayfasındaki ekran ve tabloların taşıyabilir, yeniden boyutlandırabilirsiniz. ",
+    "reset": "Varsayılan Ekran"
+  },
+  "messages": {
+    "Exception_General": "Sunucularımızda bir problem oluştu, lütfen birazdan yeniden deneyin.",
+    "Exception_Email": "Eposta gönderilemedi lütfen tekrar deneyin.",
+    "Exception_BadRequest": "Geçersiz İşlem",
+    "Exception_HMAC_Missing": "Must provide the HMAC of the request body.",
+    "Exception_HMAC_Validation": "İstek gövdesinin HMAC'sini sağlamalıdır.",
+    "Exception_TimeStamp": "Geçersiz zaman damgası.",
+    "Exception_RecvWindow": "Geçersiz recvWindow değeri.",
+    "Exception_TimeStamp_Window_Invalid": "Bu istek için zaman damgası recvWindow'un dışında.",
+    "Exception_Body_Missing": "İstek gövdesini sağlamalıdır.",
+    "Exception_Invalid_Body": "İstek gövdesi geçersizdi.",
+    "Exception_Invalid_Address": "Geçersiz adres.",
+    "Exception_Invalid_OrderSide": "Geçersiz parametre 'Taraf', 'AL' veya 'SAT' olmalıdır",
+    "Exception_Invalid_Orderid": "OrderId veya clientOrderId verisi gereklidir",
+    "Exception_Invalid_CurrencyName": "Geçersiz para/kripto ismi",
+    "Exception_Invalid_XRP_DTag_Required": "XRP adresi için addressTag'i sağlamalıdır.",
+    "Order_Trade_Suspended": "Üzgünüm! İşlem Askıya Alındı.",
+    "Order_Invalid_Order_Type": "Geçersiz Emir Türü.",
+    "Order_Invalid_Client_Order_ID": "Bu kullanıcı kimlik IDsi ile verilmiş emir zaten mevcut.",
+    "Order_Invalid_Pair": "Geçersiz İşlem Çifti",
+    "Order_Invalid_Trade_Volume": "Geçersiz İşlem Hacmi",
+    "Order_Cannot_Be_Served": "Hacim işlemi hizmete alınamadı.",
+    "Order_Invalid_Stop_Price": "Geçersiz Stop fiyatı.",
+    "Order_Invalid_Trade_Price": "Geçersiz İşlem Fiyatı.",
+    "Order_Invalid_Rate_Volume": "Geçersiz Oran/Hacim.",
+    "Exception_Link_Expired": "Mevcut bağlantı linki kullanım süresi bitti.",
+    "Exception_Insufficient_Funds": "Yetersiz bakiye",
+    "Exception_Coin_Maintenance": "Koin/Token bakıma alınmıştır.",
+    "Exception_Account_Suspended": "Hesabınız Askıya Alındı!",
+    "Address_No_Unused_Address": "Şu anda kullanılmayan adres yok",
+    "Withdrawal_Invalid_Amount": "Geçersiz çekim miktarı",
+    "Withdrawal_Suspended": "Çekim işlemleri geçici olarak durdurulmuştur.",
+    "Success_General": "Başarılı!",
+    "Success_NoRowsFound": "Satır bulunamadı",
+    "Success_Saved": "Detaylar başarıyla kaydedildi.",
+    "Success_Deleted": "Detaylar başarıyla silindi.",
+    "Error_Disabled_BY_Admin": "Bu kullanım yönetici tarafından devre dışı bırakıldı.",
+    "Failure_General": "Birşeyler yanlış gitti. Bir süre sonra tekrar deneyin.",
+    "Failure_GME": "GME şu an meşgul. Daha sonra tekrar deneyin",
+    "Request_Invalid": "Geçeriz İstek.",
+    "Trade_CurrencyType_Missing": "İşlem birimi seçilmelidir.",
+    "Trade_TradeType_Missing": "İşlem türü seçilmelidir.",
+    "Trade_TradeType_Invalid": "Geçersiz parametre 'type'. Seçenekler 'MARKET', 'STOPLIMIT' yada 'LIMIT' olarak belirlenmelidir.",
+    "Trade_Volume_Invalid": "Geçersiz işlem hacmi",
+    "Trade_Rate_Invalid": "Geçersiz işlem oranı",
+    "Trade_Stop_Invalid": "Geçersiz stop oranı",
+    "Trade_MarketType_Missing": "Market birimi seçilmelidir.",
+    "Trade_Invalid_Size": "Geçersiz işlem miktarı",
+    "Withdrawal_Error": "Market birimi seçilmelidir.",
+    "Facility_Suspended": "Bu işlem türü hesabınız için aktif değildir.",
+    "Feature_Disabled": "KYC2 yapın ve Google Authenticator etkinleştirin.",
+    "Coin_Maintenance": "Token/Koin bakıma alınmıştır.",
+    "InsufficientFunds": "Yetersiz bakiye.",
+    "SignUp_Invalid_Referrer": "Referans ID mevcut değil",
+    "SignUp_Duplicate_Mobile": "Bu Cep telefonu numarası mevcutta kayıtlıdır.",
+    "SignUp_Duplicate_Email": "Bu eposta adresi mevcutta kayıtlıdır.",
+    "SignUp_Phone_Error": "Bu telefon numarası geçersizdir.",
+    "SignIn_Authentication_Failed": "Geçersiz giriş bilgileri",
+    "SignIn_Invalid_OTP": "Geçersiz Doğrulama Kodu",
+    "SignIn_Missing_OTP": "Doğrulama kodu girilmelidir.",
+    "SignIn_Unvarified_Email": "Eposta adresiniz doğrulanmadı. Lütfen şifrenizi değiştirin.",
+    "SignIn_Suspended_Account": "Hesabınız Askıya Alındı! Lütfen destek ekibiyle irtibata geçiniz.",
+    "ChangePassword_Same_Error": "Yeni Şifreniz Eskisiyle Aynı Olamaz.",
+    "ChangePassword_Invalid_OldPassword": "Giriş şifreniz kayıtlarımızla uyumsuzdur.",
+    "GAuth_Required": "$t(multiFactorAuth.name) kodu giriniz.",
+    "GAuth_Enabled_Mandatory": "Endpoint kullanmak için $t(multiFactorAuth.name) etkinleştirin.",
+    "GAuth_Two_Factor_Error": "Geçersiz $t(multiFactorAuth.name) kodu.",
+    "GAuth_Two_Factor_Already_Enabled": "$t(multiFactorAuth.name) zaten etkinleştirilmiş.",
+    "KYC_Not_Approved": "Bu özelliği kullanabilmek için kimlik doğrulama işlemlerini tamamlamalısınız.",
+    "KYC_Custom_Error": "Doğrulama hatası",
+    "KYC_Provider_Error": "Kimlik doğrulama servisi bulunamadı.",
+    "KYC_Upload_Error": "Kimlik doğrulama yüklenemedi.",
+    "KYC_Image_NotFound": "Resim bulunamadı.",
+    "KYC_Approved_Error": "Kimlik doğrulamayı zaten tamamladınız.",
+    "KYC_Pending_Error": "Kimlik doğrulamanız işleme alındı. Değerlendirme tamamlandığında size bildirim yapacağız.",
+    "KYC_Invalid_CID_Email": "Eposta adresi bulunamadı.",
+    "KYC_Not_Submitted": "Kimlik doğrulama henüz tamamlanmadı.",
+    "KYC_Form_NotFound": "Kimlik doğrulama henüz tamamlanmadı.",
+    "KYC_Form_Corrupted": "Kimlik doğrulama formunda hata oluştu.",
+    "KYC_Server_Down": "Kimlik doğrulama sunucusu geçici olarak devre dışı durumda.",
+    "Payment_Amount_Missing": "Belli miktar bakiye bulunmalıdır.",
+    "Payment_Gateway_Invalid": "Geçersiz ödeme noktası",
+    "API_Inavalid_IP": "Geçersiz IP adresi/adresleri",
+    "API_Key_Type_Required": "Geçersiz anahtar türü. Geçerli seçenekler 'trade','readonly','all'",
+    "API_Secretkey_Required": "Başlıkta Gizli anahtar bulunamadı",
+    "Invalid_Currency": "Geçersiz İşlem Birimi",
+    "Invalid_Fiat_PG_Currency": "Geçersiz Para Birimi",
+    "DepositDisabled": "Bu birim için yatırma işlemleri geçici olarak devre dışıdır.",
+    "WithdrawalLimitReached": "Çekim Limitine Ulaştınız.",
+    "InvalidLanguage": "Dil bulunamadı.",
+    "TransitiveFollowing": "Transitive-following geçerli değil.",
+    "SelfFollowing": "Kendinizi takip edemezsiniz.",
+    "InvalidProTraderID": "Geçersiz Trader ID",
+    "MultipleFollowing": "Çoklu takip yapılamaz.",
+    "WeakPassword": "Şifreniz en az 8 karakter ve en az 1 büyük harf ve en az 1 rakam içermelidir.",
+    "WithdrawalPending": "Bu birim için bekleyen bir çekim talebiniz var. Yeni çekim talebi vermek için bir önceki çekim talebinizin tamamlanmasını bekleyin.",
+    "DepositPending": "Bu para birimi için mevcutta bekleyen bir para yatırma işleminiz bulunmaktadır.",
+    "WithdrawalLimitReachedExclusive": "Çekim limitinizi aşmış bulunuyorsunuz yada talebiniz çekim limitleri aşmaktadır.",
+    "WithdrawalLimitReachedAggregate": "Çekim limitinizi aşmış bulunuyorsunuz yada talebiniz çekim limitleri aşmaktadır.",
+    "ReadOnlyToken": "Sadece okuma izni olan token için bu işlem yapılamaz.",
+    "MarginCall": "Marjin çağrısı mevcutken bu işlem yapılamaz.",
+    "Force_Liquidation": "Force liqudatition işlemi yapılırken yeni işlem yapılamaz.",
+    "Feature_Unavailable": "Bu özellik hesabınız için kısıtlıdır.",
+    "KYC_ProviderNotMatched_Error": "Kimlik doğrulama servisi eşleşmedi.",
+    "KYC_Inavlid_CID_Email": "Eposta bulunamadı",
+    "Order_Coin_Maintenance": "Koin/Token bakımdadır.",
+    "Order_Account_Suspended": "Hesap askıya alındı.",
+    "orderCancelled": "Emir iptal edildi.",
+    "orderPlaced": "Emir başarıyla girildi.",
+    "HMAC validation has failed": "HMAC doğrulaması yapılamadı",
+    "invalid_grant": "Girilen kod geçersiz",
+    "Sorry, something went wrong Please try again": "Birşeyler yanlış gitti.",
+    "otpExpired": "Eposta doğrulama kodu süresi doldu. Lütfen tekrar giriş yaparak yeni kod talep edin.",
+    "Unable to authenticate user": "Kullanıcı doğrulanamadı.",
+    "An error occurred while updating the entries See the inner exception for details": "Girişler güncellenirken hata oluştu.",
+    "A verification link has been sent to your email": "Epostanıza bir doğrulama linki gönderdik.",
+    "successfulEmailVerification": "Tebrikler! Epostanız doğrulandı.",
+    "success2fa": "Tebrikler! Lütfen iki adımlı doğrulama şifrenizi girin!",
+    "successfulLogin": "Başarıyla Giriş Yapıldı!",
+    "emailOtp": "Lütfen giriş şifreniz için epostanızı kontrol edin!",
+    "successfulPasswordChange": "Tebrikler! Şifreniz başarıyla değiştirildi.",
+    "successfulPasswordReset": "Şifre sıfırlama başarılı!",
+    "unsuccessfulPasswordReset": "Şifre sıfırlama bağlantısının süresi doldu. Şifreniz hala geçerli olup lütfen yeni sıfırlama linki almak için eposta adresinizi girin.",
+    "successfulLogout": "Başarıyla Çıkış Yapıldı!",
+    "clipboardCopied": "Kopyalama Başarılı!",
+    "2faEnabled": "İki Adımlı Doğrulama başarıyla etkinleştirildi.",
+    "2faDisabled": "İki Adımlı Doğrulama başarıyla devre dışı bırakıldı.",
+    "apiKeyAdded": "Tebrikler! Yeni API anahtarı üretildi.",
+    "apiKeyRemoved": "API anahtarı kaldırıldı.",
+    "generatedAddress": "Tebrikler! Yeni yatırma cüzdan adresini başarıyla oluşturdunuz.",
+    "withdrawalRequest": "Çekim talebiniz alındı. Hızlı şekilde işleminiz gerçekleştirilecektir.",
+    "keyGenerated": "Açık Anahtar: {{ publicKey }} &#13; Özel Anahtar: {{ privateKey }} &#13;  ÖNEMLİ UYARI: Lütfen özel anahtarınızı çok güvenli erişilebilir bir yerde saklayınız. Bu anahtarı sadece bir defaya mahsus görebileceksiniz.",
+    "addressSuccess": "Adres başarıyla oluşturuldu.",
+    "successfulKycSubmission": "Doğrulama bilgileri başarıyla iletildi. Lütfen belli zaman sonra tekrar kontrol ediniz.",
+    "instaTradeSuccess": "İşlem talebiniz başarıyla alındı. İşlem onayı için lütfen epostanızı kontrol ediniz.",
+    "timeDifference": "Cihazınızın tarih ve saati Dünya Saati ve sunucularımızın tarih saat verileri ile uyumsuzdur. Lütfen cihazınızın tarih ve/veya saatini güncelleyiniz. Dünya Saati verisini aşağıdaki linkten takip edebilirsin. https://www.timeanddate.com/worldclock/. Bu problem tarafınızdan giderilinceye kadar bir çok özelliği kullanamayacaksınız.",
+    "ChainAlysis_Blacklisted": "Kara Para Aklama Risk analizi bu işlemi uygun bulmadı. Lütfen teknik servisle irtibata geçiniz.",
+    "CipherTrace_Blacklisted": "Kara Para Aklama Risk analizi bu işlemi uygun bulmadı. Lütfen teknik servisle irtibata geçiniz.",
+    "IP_Abuse": "IP adresinizden çok sayıda saldırı sayılabilecek işlem talebi gerçekleşti. Hesabınız 1 saat askıya alındı.",
+    "MSG_ORDER_ACCEPTED": "Emir başarıyla girildi.",
+    "MSG_ORDER_USER_CANCELLED": "Emir kullanıcı tarafından iptal edildi.",
+    "MSG_ORDER_CANCELLED_DUE_TO_OCO": "Emir OCO işlemi nedeniyle iptal edildi.",
+    "MSG_ORDER_CANCEL_ACCEPTED": "Bilinmeyen neden",
+    "MSG_ORDER_CANCEL_REJECTED": "Bilinmeyen neden",
+    "MSG_ORDER_REJECTED": "Bilinmeyen neden",
+    "Success!": "Başarılı!",
+    "messageSentToEmailAddress": "Eposta adresinize bir doğrulama bağlantısı gönderildi.",
+    "incorrect 2FA Code": "Geçersiz 2FA Kodu",
+    "Device_OTP_Invalid": "Geçersiz Cihaz Doğrulama Kodu",
+    "Exception_Invalid_Token_or_Expired": "Geçersiz yada Süresi Dolmuş Token",
+    "error401": "Oturumunuzu lütfen yenileyin",
+    "MSG_ERROR_FAILED_TO_FETCH_ORDERHISTORY": "Uyarı: İşlem Geçmişi Alınamadı",
+    "MSG_ERROR_FAILED_TO_FETCH_RATE": "AMM Uyarısı: Son Alım Satım fiyatı alınamadı",
+    "MSG_ERROR_RISK_DETECTED_NONE": "AMM Uyarısı: Risk Bulunamadı",
+    "MSG_ERROR_RISK_DETECTED_PUMP_AND_DUMP": "AMM Uyarısı: Pump & dump tespit edildi.",
+    "MSG_ERROR_RISK_DETECTED_FREQUENT_CANCELLATION": "AMM Uyarısı: Sıralı İptal tespit edildi.",
+    "MSG_ERROR_RISK_DETECTED_SPOOFING_AND_LAYERING": "AMM Uyarısı: Spoofing & layering tespit edildi.",
+    "P2P_AVProof_Required": "AV Proof required.",
+    "P2P_Add_Offer_Failed": "Failed.",
+    "P2P_Add_Order_Failed": "Failed.",
+    "P2P_Appeal_Failed": "You cannot appeal again.",
+    "P2P_Base_Required": "Base is required.",
+    "P2P_Cancel_Offer_Failed": "Sorry! orders in process.",
+    "P2P_CounterPartyKYC_Failed": "Counter party KYC failed",
+    "P2P_Description_Required": "Description required.",
+    "P2P_DisplayName_Required": "Display Name is required.",
+    "P2P_FloatingPremium": "Floating premium cannot be zero",
+    "P2P_Gauth_Code_Required": "Gauth code required.",
+    "P2P_Invalid_Pair": "Invalid pair.",
+    "P2P_Invalid_Trade": "Self trade is not allowed.",
+    "P2P_MakerPaymentMethod_Id_Invalid": "Maker Payment Method Id is invalid.",
+    "P2P_MakerPaymentMethod_Id_Required": "Maker Payment Method Id required.",
+    "P2P_Message_Required": "Message is required.",
+    "P2P_MinBTCHolding_Failed": "Min BTC holding failed",
+    "P2P_MinBTCHolding_Required": "Min BTC holding is required.",
+    "P2P_Mobile_NO_Required": "Mobile no required.",
+    "P2P_OTP_Invalid": "Invalid OTP or expired.",
+    "P2P_OTP_Required": "OTP is required.",
+    "P2P_Offer_Has_Open_Orders": "Cancellation not allowed when offer has open orders.",
+    "P2P_Offer_Id_Invalid": "Offer Id is invalid.",
+    "P2P_Offer_Id_Required": "Offer Id is required.",
+    "P2P_Offer_Size_Change_Not_Allowed": "You cannot change size for a partially filled offer.",
+    "P2P_Open_Offer_Exist": "Another offer is opened already for same currency.",
+    "P2P_Open_Offers_Exists_Delete_Failed": "Sorry! You have open offers associated with this payment method.",
+    "P2P_Open_Order_Exist": "Another order is opened already for same currency.",
+    "P2P_OrderGuid_Invalid": "Order Guid invalid.",
+    "P2P_OrderGuid_Required": "Order Guid required.",
+    "P2P_OrderLimit_LB_Invalid": "Invalid Lower Limit value",
+    "P2P_OrderLimit_LB_Required": "Order limit lower bound is required.",
+    "P2P_OrderLimit_UB_Invalid": "Invalid Upper Limit value",
+    "P2P_OrderLimit_UB_Required": "Order limit upper bound is required.",
+    "P2P_Order_Id_Invalid": "Order Id is invalid.",
+    "P2P_Order_Id_Required": "Order Id is required.",
+    "P2P_Order_Payment_Window_Expired": "Order payment window expired.",
+    "P2P_PaymentJSON_Required": "Payment JSON is required.",
+    "P2P_PaymentTime_Limit_Required": "Payment time limit is required.",
+    "P2P_Payment_Id_Exist": "Payment Id is already exist.",
+    "P2P_Payment_Id_Invalid": "Payment Id is invalid.",
+    "P2P_Payment_Id_Required": "Payment Id is required.",
+    "P2P_Payment_Ids_Required": "Payment ids is required.",
+    "P2P_Price_Estimation_Failed": "Price Estimation failed.",
+    "P2P_Price_Required": "Price is required.",
+    "P2P_Primary_Reason_Required": "Primary Reason required.",
+    "P2P_Profile_Not_Found": "Profile not found.",
+    "P2P_Quote_Required": "Quote is required.",
+    "P2P_RegisteredXDaysAgo_Failed": "Registered XDays ago failed",
+    "P2P_RegisteredXDaysAgo_Required": "RegisteredXDaysAgo is required.",
+    "P2P_Side_Required": "Side is required.",
+    "P2P_Size_Required": "Size is required.",
+    "P2P_StartPrice_Required": "Start Price is required.",
+    "P2P_StatusText_Required": "Status Text is required.",
+    "P2P_Token_Required": "Token is required.",
+    "P2P_UserId_Invalid": "Invalid User.",
+    "P2P_UserPayment_Id_Invalid": "User payment id is invalid.",
+    "P2P_UserPayment_Id_Limit_Reached": "maximum 5 ids allowed."
+  },
+  "multiFactorAuth": {
+    "Google": "Google Authenticator",
+    "Authy": "Authy",
+    "GoogleDownloadUrl": "https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&oco=0",
+    "AuthyDownloadUrl": "https://authy.com/",
+    "name": "$t(multiFactorAuth.Google)",
+    "length": "6",
+    "download": "$t(multiFactorAuth.GoogleDownloadUrl)"
+  },
+  "navbar": {
+    "analyticsContainer": {
+      "coinInfo": "Koin Bilgi",
+      "lastPrice": "Son Fiyat",
+      "change": "24s Değişim",
+      "volume": "24s Hacim",
+      "priceHigh24h": "24s En Yüksek",
+      "priceLow24h": "24s En Düşük"
+    },
+    "links": {
+      "home": "Market",
+      "trade": "Borsa",
+      "account": "Hesap",
+      "orders": "Emirler",
+      "wallet": "Cüzdan",
+      "login": "Giriş",
+      "logout": "Çıkış",
+      "signup": "Kayıt",
+      "instaTrade": "IEO",
+      "socialTrade": "Byte Traders",
+      "derivatives": "Derivatives",
+      "stake": "BEXT Stake",
+      "NDWallet": "ND Wallet",
+      "p2pMenu": {
+        "p2p": "P2P",
+        "offers": "Offers",
+        "paymentSettings": "Payment Settings",
+        "postNewOffer": "Post New Offer",
+        "MyOffers": "My Offers",
+        "MyOrders": "My Orders",
+        "p2pWallet": "P2P Wallet"
+      }
+    }
+  },
+  "NDWallet": {
+    "pageTitle": "ND Wallet",
+    "deposits": {
+      "link": "Deposits"
+    },
+    "order-history": {
+      "link": "Order History"
+    },
+    "overview": {
+      "Fundingbalance": "Funding balance",
+      "Tradingbalance": "Trading balance",
+      "Main Walletbalance": "Main Wallet balance",
+      "ND Walletbalance": "ND Wallet balance",
+      "amount": "Amount",
+      "balance": "Balance",
+      "mainWallet": "Main Wallet",
+      "ndWallet": "ND Wallet",
+      "trading": "Trading",
+      "funding": "Funding",
+      "moveTo": "Move to",
+      "transferTo": "Transfer to",
+      "currency": "Currency",
+      "link": "Overview"
+    },
+    "withdrawals": {
+      "link": "Withdrawals"
+    }
+  },
+  "orders": {
+    "pageTitle": "Emirler",
+    "openOrders": {
+      "link": "Açık Emirler"
+    },
+    "orderHistory": {
+      "link": "Emir Geçmişi"
+    },
+    "tradeHistory": {
+      "link": "İşlem Geçmişi"
+    }
+  },
+  "p2p": {
+    "pageTitle": "P2P",
+    "myOffers": {
+      "pageTitle": "My Offers",
+      "assetType": "Asset Type",
+      "type": "Type",
+      "status": "Status",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "postNewOffer": "Post New Offer",
+      "allAssets": "All assets",
+      "allStatus": "All status",
+      "buy": "Buy",
+      "sell": "Sell",
+      "published": "Published",
+      "unPublished": "UnPublished",
+      "cancelled": "Cancelled",
+      "completed": "Completed"
+    },
+    "myOrders": {
+      "pageTitle": "My Orders"
+    },
+    "offers": {
+      "notNow": "Not now",
+      "toRefresh": "to refresh",
+      "allPayments": "All Payments",
+      "buy": "Buy",
+      "sell": "Sell",
+      "search": "Search",
+      "fiat": "Fiat",
+      "payment": "Payment",
+      "updateProfileHeading": "Update profile",
+      "name": "Name",
+      "amount": {
+        "label": "Amount",
+        "placeholder": "Enter amount"
+      }
+    },
+    "orderDetails": {
+      "buyer": "Buy $t(OrderData.{{BaseCurrency}})",
+      "seller": "Sell $t(OrderData.{{BaseCurrency}})",
+      "createdTime": "Created time",
+      "orderNumber": "Order number",
+      "amount": "Amount",
+      "price": "Price",
+      "quantity": "Quantity",
+      "fee": "Fee",
+      "youPaid": "You Paid",
+      "youReceived": "You Received",
+      "orderCancelled": "Order cancelled",
+      "youAppealed": "You Appealed",
+      "appealStatus": "Appeal Status",
+      "buyInstruction1": "Please confirm that you have successfully transferred the money to the seller through the following payment method.",
+      "buyWarning1": "The following is the sellers' payment info. please make sure the money is transferred from an account you own. matching you verified name. Money will NOT be transferred automatically by the platform.",
+      "paymentToBeMade": "Payment to be made",
+      "buyInstruction2": "Please make a payment within $t(OrderData.{{PaymentTimeLimit}}) mins, Otherwise, the order will be cancelled.",
+      "transferredNext": "Transferred, Next",
+      "buyInstruction3": "Please confirm that payment has been made to seller, Malicious clicks will lead to accound frozen.",
+      "buyWarning2": "WARNING! If you click on \"Transferred, next\" without making the payment (you need to transfer the money with the payment account, not on Modulus). Your account will potentially be suspended. The platform reserve the right to claim any damage caused.",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "paidToAccountBelow": "Paid to account below",
+      "appeal": "Appeal",
+      "beforeAppealing": "Before appealing",
+      "beforeAppealInstruction1": "You can upload proof of payment and account info in the chatbox to help both sides to verify the payment",
+      "beforeAppealInstruction2": "Please try to contact the counterparty if you have any problems",
+      "beforeAppealInstruction3": "If you cannot reach the buyer/seller, or reach an agreement with the other user, please file an appeal",
+      "appealWarning1": "Reason for appeal and proofs are visible to both parties and CS. Please avoid including any private or sensitive info",
+      "appealWarning2": "Baseless appeal request can result in banning of the account",
+      "phoneNumber": "Phone (Mandatory)",
+      "cancelOrder": "Cancel order",
+      "orderCompleted": "Order Completed",
+      "orderCancelReason": "Order Cancel Reason",
+      "appealResolvedOn": "Appeal Resolved on",
+      "appealResolvedOnFavour": "Appeal Resolved on $t(OrderData.Appeal.{{ResolutionFavoring}})'s favour",
+      "confirmRelease": "Confirm Release",
+      "confirmReleaseWarning": "ATTENTION! Please be sure to LOG IN THE RECEVING (e.g. Bank/ eWallet) ACCOUNT to confirm that the money has arrived in the \"Available Balance\"",
+      "getCode": "Get code",
+      "phoneInfo": "Enter the 6 digit code sent to $t(profile.{{mobileNumber}}).",
+      "checkConfirmMsg": "I confirm that the payment is successfully received with correct amount and sender information",
+      "pleaseConfirmPayment": "Please Confirm Payment",
+      "callTheNumber": "Call The Number",
+      "warningOnChatBox": "ATTENTION! Do not release crypto before confirming that money has arrived in your Bank account. DO NOT trust anyone that asjs you to release a crypto before payment.",
+      "messingBoxPlaceholder": "write a message...",
+      "cancelReasonPlaceholder": "Please enter the reason for cancellation",
+      "cancelReasonsHeading": "Why do you want to cancel the order?",
+      "myPaymentMethod": "My Payment Method",
+      "paymentToBeMadeByBuyer": "Payment to be made by buyer",
+      "sellInstruction1": "Buyer has not paid, please wait patiently.",
+      "paymentConfirmHeading": "Please confirm you have received the payment",
+      "toBeReleased": "To be released",
+      "sellInstruction2": "Buyer has made a payment, please release the crypto within $t(OrderData.{{PaymentTimeLimit}}) mins.",
+      "cancelReason1": "I do not want to trade anymore",
+      "cancelReason2": "I do not meet the requirements of the advertiser's trading terms and condition",
+      "cancelReason3": "Seller is asking for extra fee",
+      "cancelReason4": "Problem with seller's payment method result in unsuccessful PaymentSettings",
+      "cancelReason5": "Other reasons",
+      "cancelAppeal": "Cancel the Appeal",
+      "open": "Open",
+      "closed": "Closed",
+      "appealcancelled": "Appeal Cancelled",
+      "appealCancelledOn": "Appeal Cancelled on",
+      "appealReasons": {
+        "reason1": "I have made a payment but the seller has not released the crypto.",
+        "reason2": "I paid extra money to the seller.",
+        "reason3": "I suspected the seller is scamming.",
+        "reason4": "Others"
+      },
+      "cancelOrderTips": {
+        "title": "Tips",
+        "tip1": "If you have made a payment to the seller, make sure do not cancel order.",
+        "tip2": "Canceling orders 3 time a day will prevent you from trading for the rest of the day."
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Please provide as much detail as possible"
+      },
+      "phoneVerificationCode": {
+        "label": "Phone verification code",
+        "placeholder": "Phone verification code"
+      },
+      "reasonForAppeal": {
+        "label": "Reason for Appeal (Mandatory)",
+        "placeholder": "Please enter the reason for appeal"
+      },
+      "tips": {
+        "title": "Tips",
+        "tip1": "Please do not include any information about BTC, ETH, USDT, BNB and other digital asset names in the transfer notes to prevent payment from being intercepted or bank funds being frozen.",
+        "tip2": "Your payment will go directly to the seller's account. the digital assets sold by the seller during the transaction will be handled by platform.",
+        "tip3": "Please complete the payment within the specified time, and be sure to click \"Transferred, Next\", After the seller confirms the payment , the system will transfer the digital assets to your account.",
+        "tip4": "If the buyes cancels order 3 times a day, he/she will no longer be able to trade for the rest of the day.",
+        "tip5": "After 5 pm on weekdays or during non-working days, please limit each transaction within 50,000 CNY, otherwise it will be delayed."
+      },
+      "uploadProof": {
+        "placeholder": "Please upload proof.",
+        "label": "Upload Proof (Mandatory)"
+      }
+    },
+    "p2pWallet": {
+      "pageTitle": "P2P Wallet"
+    },
+    "paymentSettings": {
+      "pageTitle": "Add Payment Method",
+      "fiat": "Fiat",
+      "paymentMethod": "Payment Method",
+      "formErrorMsg": "Incorrect Input.",
+      "submit": "Submit",
+      "AccountNumber": {
+        "label": "Account Number",
+        "placeholder": "Account Number"
+      },
+      "Bank_Account_No": {
+        "label": "Bank Account No",
+        "placeholder": "Bank Account No"
+      },
+      "Bank_Customer_Email": {
+        "label": "Bank Customer Email",
+        "placeholder": "Bank Customer Email"
+      },
+      "Bank_Name": {
+        "label": "Bank Name",
+        "placeholder": "Bank Name"
+      },
+      "Bank_Routing_Code": {
+        "label": "Bank Routing Code",
+        "placeholder": "Bank Routing Code"
+      },
+      "BankName": {
+        "label": "Bank Name",
+        "placeholder": "Bank Name"
+      },
+      "gAuthCode": {
+        "label": "GAuth Code",
+        "placeholder": "GAuth Code"
+      },
+      "Mobile_Number": {
+        "label": "Mobile Number",
+        "placeholder": "Mobile Number"
+      },
+      "Paypal_Email": {
+        "label": "Paypal Email",
+        "placeholder": "Paypal Email"
+      },
+      "RoutingCode": {
+        "label": "Routing Code",
+        "placeholder": "Routing Code"
+      },
+      "WeChat_Id": {
+        "label": "WeChat Id",
+        "placeholder": "WeChat Id"
+      }
+    }
+  },
+  "pagination": {
+    "prev": "Önceki",
+    "next": "Sonraki"
+  },
+  "settings": {
+    "theme": "Tema",
+    "language": "Dil Seçenekleri",
+    "fiat": "Para Birimi",
+    "title": "Ayarlar",
+    "numberFormat": "Sayı Formatı",
+    "numberFormatOptions": {
+      "df": "Varsayılan Dil",
+      "comma": "Ondalık Virgül (1.234,56)",
+      "period": "Ondalık Nokta (1,234.56)"
+    }
+  },
+  "socialTrade": {
+    "socialTrade": "Byte Traders",
+    "myStrategies": "Stratejilerim",
+    "sharedStrategies": "Paylaşılan Stratejiler",
+    "subscribedStrategies": "Abone Olunan Stratejiler",
+    "createStrategy": "Strateji Oluştur",
+    "edit": "Düzenle",
+    "subscribe": "Abone Ol",
+    "unsubscribe": "Abonelik İptal Et",
+    "log": "Kayıtlar",
+    "backtest": "Test",
+    "strategyName": "Strateji Adı",
+    "strategySide": "Taraf",
+    "description": "Açıklama",
+    "baseCurrency": "Baz Birim",
+    "quoteCurrency": "Alıntı Birim",
+    "tradePair": "İşlem Çifti (Baz/Alıntı Birimler)",
+    "script": "Trade Yazılımı",
+    "accessType": "Erişim Türü",
+    "save": "Kayıt",
+    "start": "Başlat",
+    "stop": "Durdur",
+    "delete": "Sil",
+    "launchState": "Uygulama",
+    "useBuySignal": "Alış Sinyali Kullan",
+    "useSellSignal": "Satış Sinyali Kullan",
+    "slipPct": "Slip Pct",
+    "tillDate": "Tarihe kadar",
+    "interval": "Aralık",
+    "limit": "Limit",
+    "run": "Çalıştır",
+    "performance": "Performans",
+    "author": "Yazar",
+    "title": "Başlık",
+    "pair": "İşlem Çifti",
+    "profit": "Kar",
+    "loss": "Zarar",
+    "actions": "Eylemler",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "totalTrades": "Toplam Alım Satım",
+    "averageTradesPerMonth": "Aylık Ortalama Alım Satım Miktarı",
+    "profitableTrades": "Karlı Alım Satımlar",
+    "losingTrades": "Zarar Eden Alım Satımlar",
+    "totalProfit": "Toplam Kar",
+    "totalLoss": "Toplam Zarar",
+    "percentProfit": "Kar Yüzdesi",
+    "largestProfit": "En Büyük Kar ",
+    "largestLoss": "En Büyük Zarar",
+    "maximumDrawdown": "En Çok Düşüş",
+    "compoundMonthlyROR": "Bileşik Aylık Getiri",
+    "standardDeviation": "Standart Sapma",
+    "annualizedStandardDeviation": "Yıllık Standart Sapma",
+    "downsideDeviation": "Aşağı Yönlü Sapma",
+    "valueAddedMonthlyIndex": "Değer Eklemeli Aylık İndex",
+    "sharpeRatio": "Sharpe Oranı",
+    "annualizedSharpeRatio": "Yıllık Sharpe Oranı",
+    "sortinoRatio": "Sortino Oranı",
+    "annualizedSortinoRatio": "Yıllık Sortino Oranı",
+    "sterlingRatio": "Sterling Oranı",
+    "calmarRatio": "Calmar Oranı",
+    "riskToRewardRatio": "Risk/Kazanç Oranı",
+    "date": "Tarih",
+    "type": "Tür",
+    "subscriptionType": "Abone olunan",
+    "alertType": "Alarm",
+    "accountTradingPercentage": "Hesap Alım Satım Oranı (0.1 - 15)",
+    "atpError": " [0.1 .. 15.0] arasında bir değer olmalıdır.",
+    "autoTradeWarning": "Uyarı Otomatik alım satım tehlikeli olabilir. Dikkatli kullanınız.",
+    "backtestBaseFieldsRequired": "Lütfen \"Baz Birim\" ve \"Alıntı Birim\" alanlarını doldurduğunuzdan ve \"Yazılım\" alanını da doldurduğunuzdan emin olun.",
+    "strategySaved": "Kaydedildi!",
+    "link_trade_script_docs": "Dokümantasyon",
+    "error_invalid_atp": "Geçersiz hesap alım satım oranı değeri.",
+    "error_invalid_atp_range": "Hesap Alım Satım Oranı şu değerler arasında olmalıdır: ",
+    "error_script_field_required": "\"Trade Yazılımı\" alanı boş olmamalıdır.",
+    "accessTypes": {
+      "public": "Herkese Açık",
+      "private": "Kişisel"
+    },
+    "alertTypes": {
+      "sms": "Sms Uyarısı",
+      "email": "Eposta Uyarısı",
+      "smsAndEmail": "SMS&Eposta Uyarısı"
+    },
+    "launchStates": {
+      "inactive": "Etkin Değil",
+      "active": "Etkin"
+    },
+    "strategySides": {
+      "buy": "AL",
+      "sell": "SAT"
+    },
+    "subscriptionTypes": {
+      "alert": "Alarm",
+      "autoTrade": "Otomatik Alım Satım"
+    }
+  },
+  "tables": {
+    "apiKeys": {
+      "key": "Anahtar",
+      "type": "Tür",
+      "actions": "Eylemler",
+      "confirmDeleteKey": "Bu anahtarı silmek istediğinizden emin misiniz?"
+    },
+    "assetStatus": {
+      "name": "Ad",
+      "ticker": "Birim",
+      "assetType": "Tür",
+      "deposits": "Yatırma İşlemleri",
+      "withdrawals": "Çekim İşlemleri",
+      "trade": "Alım Satım",
+      "enabled": "Etkinleştirildi",
+      "disabled": "Engellendi",
+      "walletTypes": {
+        "Fiat-Manual": "Para Birimi",
+        "Fiat-PG": "Para Birimi",
+        "SecurityToken": "Security Token",
+        "NeblioToken": "Neblio Token"
+      }
+    },
+    "coinTracker": {
+      "favorites": "Favoriler",
+      "pair": "İşlem Çifti",
+      "price": "Fiyat",
+      "change": "Değişim (24hr)",
+      "volume": "Hacim (24hr)",
+      "24hHigh": "En Yüksek (24hr)",
+      "24hLow": "En Düşük (24hr)"
+    },
+    "commission": {
+      "credit": "Kredi",
+      "dot": "İşlem Tarihi"
+    },
+    "convertFunds": {
+      "checkBoxLabel": "Dönüştür",
+      "selectChoices": "Seçenekleri belirleyin",
+      "coin": "Koin",
+      "availableBalance": "Mevcut Bakiye",
+      "btcValue": "BTC Değeri",
+      "extValue": "Yaklaşık {{token}} Değeri",
+      "noCurrencies": "Dönüştürülecek küçük bakiyeniz yok",
+      "button": "Exchange"
+    },
+    "currenciesTable": {
+      "rank": "Sıra",
+      "name": "Tablo Adı",
+      "price": "Fiyat",
+      "marketCap": "Market Kapasitesi",
+      "circulatingSupply": "Sirküle olan Arz",
+      "change24h": "Değişim (24s)"
+    },
+    "depositHistory": {
+      "depositType": "Bakiye Yatırma Türü",
+      "depositAddress": "Bakiye Yatırma Adresi",
+      "depositAmount": "Yatırma Miktarı",
+      "depositReqDate": "Talep Edildi",
+      "depositConfirmDate": "Yatırıldı",
+      "requestDate": "Talep Edildi",
+      "approvedDate": "Yatırıldı",
+      "rejectReason": "Red Sebebi",
+      "requestAmount": "Yatırma Miktarı",
+      "transactionID": "İşlem ID",
+      "txnHash": "İşlem Hash (Txid)",
+      "currentTxnCount": "İşlem Sayısı",
+      "requiredTxnCount": "Gerekli İşlem Sayısı",
+      "explorerURL": "Blokzincir Tarayıcı Bağlantısı",
+      "type": "Bakiye Yatırma Türü",
+      "status": "Durum",
+      "comments": "Yorumlar",
+      "noDepositHistory": "İşlem geçmişiniz henüz yok.",
+      "delete": "Sil",
+      "card": "Kart",
+      "ach": "ACH",
+      "pending": "Beklemede",
+      "rejected": "Red Edilmiş",
+      "accepted": "Kabul Edilmiş",
+      "cancelled": "İptal Edilmiş",
+      "processed": "İşlem Tamamlanmış",
+      "completed": "Tamamlanmış",
+      "bank": "Banka",
+      "crypto": "Kripto",
+      "approved": "Onaylanmış"
+    },
+    "derivativesOverview": {
+      "currency": "Currency",
+      "balance": "Balance",
+      "actions": "Actions",
+      "lowBalances": "Hide low balances?",
+      "hideBalances": "Hide balances?",
+      "toDerivatives": "Switch to Derivatives"
+    },
+    "deviceWhitelisting": {
+      "addedOn": "Tarih",
+      "device": "Cihaz",
+      "browser": "Tarayıcı",
+      "ip": "IP",
+      "os": "İşletim Sistemi",
+      "delete": "Sil",
+      "noDeviceWhitelisted": "Henüz onaylı cihazınız yok",
+      "this": "Bu Cihaz"
+    },
+    "feeDiscount": {
+      "tier": "Kademe",
+      "holdings": "Varlıklar",
+      "discount": "İndirim"
+    },
+    "fees": {
+      "tradingPair": "İşlem Çifti",
+      "makerFee": "Piyasa Yapıcı Komisyon",
+      "takerFee": "Piyasa Alıcı Komisyon",
+      "tradingFeesTitle": "Borsa İşlem Komisyonları",
+      "withdrawalFeesTitle": "Yatırma & Çekme Ücretleri",
+      "currency": "Birim Türü",
+      "minWithdrawal": "En Az Çekim",
+      "depositFee": "Yatırma Ücreti",
+      "withdrawalFee": "Çekim Ücreti",
+      "free": "Ücretsiz"
+    },
+    "instaTradeHistory": {
+      "date": "Tarih",
+      "purchased": "Satın Alım Miktarı",
+      "price": "Fiyat",
+      "status": "Durum",
+      "complete": "Tamamlandı",
+      "pendingOrCancelled": "Beklemede yada İptal Edilmiş",
+      "paymentAmount": "Ödeme Miktarı",
+      "rate": "Fiyat w/ Ücret"
+    },
+    "ip-whitelisting": {
+      "addedOn": "Tarih",
+      "cidr": "IP Adresi",
+      "type": "Tür",
+      "delete": "Sil",
+      "noIPWhitelisted": "Onaylı IP adresiniz henüz yok"
+    },
+    "loginHistory": {
+      "startedOn": "Başlangıç",
+      "ipAddress": "IP Adresi",
+      "os": "İşletim Sistemi",
+      "browser": "Tarayıcı Türü",
+      "location": "Konum"
+    },
+    "myOffers": {
+      "postId": "Post Number",
+      "type": "Type",
+      "asset&Fiat": "Asset/Fiat",
+      "totalAmount": "Total Amount",
+      "completedTradeQTY": "Completed Trade QTY",
+      "limit": "Limit",
+      "price": "Price",
+      "exchangeRate": "Exchange Rate",
+      "paymentMethod": "Payment Method",
+      "lastUpdated": "Last Updated",
+      "createTime": "Create Time",
+      "status": "Status",
+      "actions": "Actions",
+      "published": "Published",
+      "unpublished": "UnPublished",
+      "cancelled": "Cancelled",
+      "completed": "Completed",
+      "confirmClose": "Confirm closing the Offer?",
+      "confirmCloseMSG": "Once closed, you can not edit this offer",
+      "cancel": "Cancel",
+      "close": "Close",
+      "confirmUnPublishingtheOffer?": "Confirm UnPublishing the Offer?",
+      "confirmPublishingtheOffer?": "Confirm Publishing the Offer?",
+      "publish": "Publish",
+      "unpublish": "UnPublish",
+      "closeMyOffer": "Close My Offer",
+      "publishMyOffer": "Publish My Offer",
+      "unPublishMyOffer": "UnPublish My Offer",
+      "edit": "Edit"
+    },
+    "myOrders": {
+      "asset/fiat": "Asset/Fiat",
+      "side": "Side",
+      "size": "Size",
+      "price": "Price",
+      "paymentMethod": "Payment Method",
+      "youPaid": "You Paid",
+      "youReceived": "You Received",
+      "cancelled": "Cancelled",
+      "view": "View",
+      "buy": "Buy",
+      "sell": "Sell"
+    },
+    "NDWalletOverview": {
+      "hideBalances": "Hide balances?",
+      "lowBalances": "Hide low balances?",
+      "actions": "Actions",
+      "fundingFrozenBalance": "Funding Frozen Balance",
+      "fundingBalance": "Funding Balance",
+      "tradingFrozenBalance": "Trading Frozen Balance",
+      "tradingBalance": "Trading Balance",
+      "inOrders": "In Orders",
+      "balance": "Balance",
+      "currency": "Currency"
+    },
+    "offers": {
+      "advertisers": "Advertisers",
+      "price": "Price",
+      "limit/available": "Limit/Available",
+      "payment": "Payment",
+      "trade": "Trade",
+      "orders": "orders",
+      "completion": "completion",
+      "available": "Available",
+      "limit": "Limit",
+      "buy": "Buy",
+      "sell": "Sell",
+      "paymentTimeLimit": "Payment Time Limit",
+      "paymentMethod": "Payment Method",
+      "termsAndConditions": "Terms and conditions",
+      "tACWarning": "Make sure you upload your proof of payment after making payment to allow me to be asking you of proof",
+      "iWantToPay": "I want to pay",
+      "iWillReceive": "I will receive",
+      "cancel": "Cancel",
+      "all": "All",
+      "tradingRequirements": {
+        "title": "Trading Requirements",
+        "info": "P2P Trading is not available in the following countries: United States, Republic of Belarus, The Democratic Republic of the Congo, Cuba, Iraq, Iran, North Korea, Sudan, Syria, Zimbabwe.",
+        "enable": "Enable",
+        "completePhoneVerification": "Complete Phone Verification",
+        "completeKYCVerification": "Complete KYC Verification",
+        "add": "Add",
+        "profileName": "Profile Name"
+      }
+    },
+    "openOrdersTable": {
+      "date": "Tarih",
+      "pair": "İşlem Çifti",
+      "type": "Tür",
+      "side": "Taraf",
+      "orderSide": "$t(tables.openOrdersTable.{{side}})",
+      "Buy": "AL",
+      "Sell": "SAT",
+      "price": "Fiyat",
+      "pending": "Beklemede",
+      "volume": "Toplam",
+      "action": "Eylem",
+      "stopprice": "Stop Fiyatı."
+    },
+    "p2pWallet": {
+      "balanceInOrder": "In Order",
+      "currency": "Currency"
+    },
+    "paymentSettings": {
+      "pageTitle": "My payment Methods",
+      "currency": "Currency",
+      "methodName": "Method name",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "warning": "Warning",
+      "confirmDelete": "Confirm deleting payment method?",
+      "myPaymentMethodsNotFound": "Payment method not found"
+    },
+    "referrals": {
+      "userId": "Kullanıcı No",
+      "joinedOn": "Katılım"
+    },
+    "toolTips": {
+      "pageSize": "Gösterilecek sıra/satır sayısı",
+      "export": "Tabloda gösterilen veriyi dışarı aktar"
+    },
+    "tradeHistory": {
+      "date": "Tarih",
+      "pair": "İşlem Çifti",
+      "type": "Tür",
+      "side": "Taraf",
+      "orderSide": "$t(tables.tradeHistory.{{side}})",
+      "BUY": "AL",
+      "SELL": "SAT",
+      "price": "Fiyat",
+      "volume": "Hacim",
+      "amount": "Miktar",
+      "fee": "İşlem Ücreti",
+      "status": "Durum",
+      "statusPending": "Beklemede",
+      "statusCancelled": "İptal Edilmiş",
+      "statusPartial": "Kısmen Tamamlandı",
+      "statusFilled": "Tamamlandı",
+      "orderId": "Emir No",
+      "mOrders": "Tamamlanmış Alım Satımlar",
+      "averagePrice": "Ortalama Fiyat",
+      "value": "Tamamlanan Değer",
+      "size": "Miktar",
+      "sizeToolTip": "Tamamlanan Miktar / Topla Miktar",
+      "stopprice": "Stop Fiyatı.",
+      "statusFilledCancelled": "Filled & Cancelled."
+    },
+    "tradingDiscount": {
+      "tierHeading": "Kademe",
+      "tier": "Kademe {{tier}}",
+      "tradedVolumeLimit": "İşlem Hacmi {{currency}}",
+      "discount": "İndirim"
+    },
+    "tradingRules": {
+      "title": "İşlem Kuralları",
+      "tradingPair": "İşlem Çifti",
+      "minTradeAmount": "En Düşük İşlem Miktarı",
+      "minOrderValue": "En Düşük Emir Miktarı",
+      "minTickSize": "En Düşük Fiyat Hareketi"
+    },
+    "walletOverview": {
+      "currency": "Birim/Kur Türü",
+      "balance": "Bakiye",
+      "inOrders": "Emirlerde Tutulan",
+      "total": "Toplam",
+      "actions": "Eylemler",
+      "lowBalances": "Düşük Bakiyeleri Gizle",
+      "trade": "Alım Satım",
+      "hideBalances": "Bakiyeleri Gizle"
+    },
+    "withdrawalHistory": {
+      "withdrawalReqDate": "Talep Tarihi",
+      "withdrawalConfirmDate": "Onay Tarihi",
+      "rejectReason": "Red edilme sebebi",
+      "withdrawalAmount": "Çekim Miktarı",
+      "withdrawalAddress": "Çekim  Adresi",
+      "withdrawalStatus": "Durum",
+      "txnHash": "İşlem Kimliği (TxID)",
+      "address": "Adres",
+      "explorerURL": "Blok Gezgini Web Sitesi",
+      "noWithdrawalHistory": "Henüz hiç çekim yapmadınız",
+      "withdrawalType": "Çekim Türü",
+      "withdrawal_Fee": "Çekim işlem ücreti",
+      "accountNumber": "Hesap No",
+      "beneficiaryName": "Hesap Sahibi Adı Soyadı",
+      "bankName": "Banka Tam Ünvanı",
+      "bankRoutingCode": "Banka Routing Kodu (Uluslararası transferler) ",
+      "swiftCode": "Swift Kodu (Uluslararası transferler) ",
+      "type": "Tür",
+      "delete": "Sil",
+      "ach": "ACH",
+      "pending": "Beklemede",
+      "approved": "Onaylanmış",
+      "rejected": "Red Edilmiş",
+      "accepted": "Kabul Edilmiş",
+      "cancelled": "İptal Edilmiş",
+      "processed": "İşlem Tamamlanmış",
+      "completed": "Tamamlanmış",
+      "bank": "Banka",
+      "crypto": "Kripto"
+    }
+  },
+  "tooltip": {
+    "settings": "Tema, Dil ve Para Birimi Seçimi"
+  },
+  "wallet": {
+    "pageTitle": "Cüzdan",
+    "addressBook": {
+      "link": "Adres Defteri",
+      "label": "Etiket",
+      "currency": "Birim",
+      "newAddress": "Cüzdan Adresi",
+      "pluralAddresses": "Adresler",
+      "addAddress": "Cüzdan Adresi Ekle",
+      "tag": "Tag/Memo",
+      "action": "Eylem",
+      "description": "Adres defteri çekim yapacağınız kripto cüzdanlarını kaydetmek için kullanılır. Yeni adresler \"Cüzdan Adresi Ekle\" formunu doldurarak eklenebilir.",
+      "whitelistDescription": "Adres Defterinde onaylı cüzdan adreslerini kaydederseniz çekim işlemlerinde sadece bu cüzdanlara çekim yapılabilecektir.",
+      "noAddresses": "Henüz kayıtlı adresiniz yok.",
+      "currencyAddress": "{{currency}} Cüzdan Adresi",
+      "selectAddress": " Formda uygun alanları doldurmak için adres defterinizden cüzdan adresi seçebilirsiniz.",
+      "selectAddressWhitelist": "Onaylı cüzdan adresi etkinleştirildiği için adres defterinizden cüzdan adresi seçmeniz gerekmektedir. Eğer onaylı cüzdan adresiniz yoksa \"Cüzdan Adresi Ekle\" butonuna tıklayarak cüzdan adresi ekleyebilirsiniz.",
+      "otpCode": "Doğrulama Kodu",
+      "requestOtp": "Doğrulama Kodu Talep Et",
+      "otpMessage": "Formu tamamlamak için doğrulama kodu talep etmelisiniz.",
+      "otpSuccessMessage": "Doğrulama kodu birincil iletişim hesabınıza gönderilmiştir."
+    },
+    "autoSell": {
+      "link": "Otomatik Satış",
+      "description": "Otomatik satış $t(wallet.autoSell.baseCurrency) üzerinde etkinleştirildiğinde, bu kripto birimi için yapılan tüm yatırma işlemleri otomatik olarak $t(wallet.autoSell.sellTo) için bir satış işlemi gerçekleştirecektir. ",
+      "baseCurrency": "Yatırma için Kripto Birimi",
+      "sellTo": "Satış karşılığı alınacak Kripto Birimi",
+      "disabled": "Otomatik Satışı Devre Dışı Bırak",
+      "success": "Otomatik Satış Seçenekleri Kayıt Edildi.",
+      "error": "Kayıt işlemi başarısız oldu. Lütfen tekrar deneyin."
+    },
+    "banks": {
+      "link": "Bankalar",
+      "bankAccounts": "Banka Hesapları",
+      "addBanks": "Banka Hesabı Ekle",
+      "action": "Eylem",
+      "description": "Banka hesap bilgilerinizi bu alana kaydedin. Google 2FA etkin olmalıdır.",
+      "noBankAccounts": "Kayıtlı Banka hesabınız henüz yok.",
+      "bankName": "Banka Tam Ünvanı",
+      "accountCurrency": "Hesap Para birimi ",
+      "accountType": "Hesap Türü",
+      "accountNumber": "IBAN Hesap No",
+      "bankRoutingCode": "Banka Routing kodu (Uluslararası transferler) ",
+      "swiftCode": "Swift Kodu (Uluslararası transferler) ",
+      "otpCode": "Doğrulama Kodu",
+      "requestOtp": "Doğrulama Kodu Talebi",
+      "otpMessage": "Formu tamamlayabilmek için Doğrulama Kodu talep etmelisiniz.",
+      "otpSuccessMessage": "Doğrulama kodu birincil iletişim hesabınıza gönderilmiştir.",
+      "AccountnumberError": "IBAN 24 sayı karakteri ve başında ülke kodu ile girilmelidir."
+    },
+    "convertFunds": {
+      "link": "Küçük bakiyeleri {{exchangeToken}} yap",
+      "message": " <1>{{numCurrencies}}</1> adet  koini  <2>{{numFunds}}</2> {{token}} yaptınız.",
+      "modalMessage": "Başarıyla küçük bakiyeleri to exchange token."
+    },
+    "creditCard": {
+      "link": "Kredi kartı ile satın alma"
+    },
+    "deposits": {
+      "link": "Yatırmalar",
+      "depositAddress": "Yatırma Adresi",
+      "destinationTag": "Destination Tag:",
+      "disclaimerFirst": "Bu cüzdan adresine {{currency}} harici başka bir kripto varlık göndermeyiniz! Aksi durumda fonlarınız geri döndürülemeyecek şekilde kaybolabilir. Fon gönderimlerinin doğru şekilde yapılması kullanıcının sorumluluğundadır!",
+      "disclaimerSecond": "Bu cüzdan adresi {{currency}} varlıkları için tek geçerli kripto cüzdan adresinizdir. Birden fazla yatırma işlemi eş zamanlı olarak gerçekleştirilebilir.",
+      "disclaimerThird": "{{currencyName}} hesabınıza blokzincir üzerinde  {{confirmations}} onay aldıktan sonra yansıtılacaktır. ",
+      "history": "Geçmiş",
+      "button": "Kripto Cüzdan Adresi Oluştur",
+      "bankName": "Banka Ünvanı",
+      "beneficiaryName": "Hesap sahibi adı soyadı",
+      "bankRoutingCode": "Routing Kodu (Uluslararası İşlemlerde)",
+      "accountNumber": "Hesap No",
+      "swiftCode": "Swift Kodu (Uluslararası İşlemlerde)",
+      "bankLocation": "Banka Adresi",
+      "bankDetails": "Banka Transferi (EFT/Havale) Detayları",
+      "formTitle": "Banka Yatırma İşlemi Yükleme",
+      "currencyDisclaimer": {
+        "TEST": "Kripto varlıkların yatırma işlemleri kullanıcıların sorumluluğunda olup doğru cüzdan adreslerine doğru kripto varlıkları gönderdiğinizden emin olun! Yatırma işlemleri blokzincir üzerinde gerçekleştiğinde otomatik olarak hesaplarınıza yansıtılır. "
+      }
+    },
+    "generic": {
+      "all": "Tüm Birimler",
+      "allCrypto": "Tüm Kripto Birimleri",
+      "allFiat": "Tüm Para Birimleri"
+    },
+    "instaTrade": {
+      "link": "Borsaiçi Satış İşlemlerim"
+    },
+    "overview": {
+      "link": "Genel Görünüm",
+      "portfolio": "Varlıklarınız"
+    },
+    "redirect": {
+      "withdrawalsError": "Çekim için herhangi bir bakiyeniz yok",
+      "depositsError": "Yatırma işlemi için etkinleştirilmiş kripto biriminiz yok"
+    },
+    "withdrawals": {
+      "link": "Çekim İşlemleri",
+      "withdrawAll": "Tamamını Çek",
+      "availableBalance": "Çekime Uygun Bakiye ",
+      "totalBalance": "Toplam Bakiye",
+      "warning": "ÖNEMLİ UYARI! LÜTFEN ICO SATIŞLARINA YADA KİTLE FONLAMA HESAPLARINA BORSA HESAPLARINIZDAN YATIRMA İŞLEMİ YAPMAYINIZ! FONLARINIZ KAYBOLABİLİR! BYTE WALLET CÜZDANLARINIZA ÇEKİM YAPARAK ICO VE KİTLE FONLAMA HESAPLARINA ÖDEME YAPABİLİRSİNİZ!",
+      "fiatWarning": "Hesap sahibi adı soyadı ile Byte Exchange kullanıcı adı aynı olmalıdır.",
+      "inOrders": "Emirlerde Tutulan Bakiye",
+      "minWithdrawal": "En az Çekim Limiti:",
+      "addressLabel": "Cüzdan Adresi",
+      "amountLabel": "Miktar",
+      "balanceAfter": "Çekim sonrası kalan bakiye",
+      "willReceive": "Alacağınız Miktar",
+      "serviceCharge": "Hizmet Bedeli",
+      "history": "Geçmiş",
+      "fee": "Komisyon",
+      "withdrawalAddress": "Çekim Cüzdan Adresi",
+      "withdrawalTag": "Çekim Tag",
+      "withdrawalAmount": "Çekim Miktarı",
+      "withdrawalLimit": "Çekim Limiti",
+      "withdrawalLimitStatus": "Çekim Limiti Durumu"
+    }
+  }
+}
