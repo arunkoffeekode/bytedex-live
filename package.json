@@ -38,6 +38,7 @@
     "react": "^18.1.0",
     "react-data-table-component": "^7.5.2",
     "react-dom": "^18.1.0",
+    "react-grid-layout": "^1.3.4",
     "react-gtm-module": "^2.0.11",
     "react-i18next": "^11.18.6",
     "react-lightbox-gallery": "^2.0.1",

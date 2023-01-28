@@ -31,7 +31,9 @@ export default function BannerSlider() {
     //     </div>
     //   </div>
     // </div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="10000" >
+  
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="10000">
+    
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
@@ -63,6 +65,8 @@ export default function BannerSlider() {
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+      </div>
+  
+ 
   );
 }

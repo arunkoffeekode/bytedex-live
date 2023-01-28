@@ -156,7 +156,7 @@
     0px 0px 13.8985px rgba(50, 50, 71, 0.08);
   border-radius: 10px;
   padding: 15px 10px 10px 10px;
-  margin-bottom: 30px;
+  margin-bottom:10px;
 }
 .coin-left-section .start {
   width: 100%;
@@ -211,12 +211,12 @@
   width: 100%;
   white-space: nowrap;
   /* margin-top: 15px; */
-  overflow-x: scroll;
-  overflow-y: scroll;
+ 
 }
 .coin-left-section .start .start-table::-webkit-scrollbar {
   display: none;
 }
+
 .coin-left-section .start .start-table table {
   position: relative;
   margin-bottom: 0px;
@@ -224,12 +224,12 @@
 .coin-left-section .start .start-table table th {
   color: var(--text);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: left;
   border-bottom: 1px solid#000000;
-  line-height: 26px;
+  line-height: 24px;
   border-top: 0px;
-  padding: 10px;
+  padding: 5px 7px 5px 7px;
 }
 .coin-left-section .start .start-table table td {
   color: var(--text);
@@ -241,6 +241,7 @@
   border-top: 0px;
   padding: 7px 10px;
 }
+
 .coin-left-section .start .start-table table td .text-green {
   color: #00a939;
   font-size: 14px;
@@ -250,14 +251,14 @@
   border-top: 0px;
 }
 .coin-left-section .start .start-table table .drag {
-  background: #ececec;
+  background: var(--order-book);
   width: 100%;
   text-align: center;
   padding: 10px;
 }
 .coin-left-section .start .start-table table .drag .total {
   color: #f74848;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-align: left;
   line-height: 26px;
@@ -265,7 +266,7 @@
 }
 .coin-left-section .start .start-table table .drag .subtotal {
   color: var(--text);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-align: left;
   line-height: 26px;
@@ -274,7 +275,7 @@
 .coin-left-section .start .start-table table .drag i {
   text-align: center;
   color: #f74848;
-  font-size: 16px;
+  font-size: 14px;
 }
 .coin-left-section .start .start-table table td .total-red {
   color: #f74848;
@@ -331,10 +332,10 @@
   align-items: center;
 }
 .coin-left-section .start ul li .usdt-txt {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--text);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .coin-left-section .start ul li .btc {
   font-size: 17px;
@@ -369,6 +370,8 @@
 }
 .scrollbar {
   padding: 3px;
+  overflow-x: scroll;
+  /* overflow-y: scroll; */
 }
 
 .usdt-balence {
@@ -570,7 +573,7 @@
   /* border-bottom: 1px solid var(--text); */
   border-bottom: 1px solid #000000;
 
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .trade-tab .limit-tab {
   background: #2c6fe1;
@@ -585,7 +588,7 @@
   border: 1px solid #2c6fe1;
   outline: none !important;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .usdt-balence .usdt-box .form-control {
   padding: 5px;
@@ -604,7 +607,7 @@
   position: relative;
   background-color: var(--bg);
   padding: 15px 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 10px;
 }
 .usdt-balence-form p {
@@ -664,7 +667,7 @@
 .cursor-pointer {
   cursor: pointer;
 }
-.chart-long{width: 100%;position: relative;float: left;margin-bottom: 20px;}
+.chart-long{width: 100%;position: relative;float: left;margin-bottom: 15px;}
 .form-control12 {
   padding: 8px 15px;
   border-radius: 0px;

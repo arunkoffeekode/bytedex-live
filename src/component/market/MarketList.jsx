@@ -139,7 +139,7 @@ export default function MarketList({ mini = false }) {
 
   return (
     <div>
-      <section className="security pt-0">
+      <section className="security pt-0 mb-0 pb-3">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
@@ -158,7 +158,7 @@ export default function MarketList({ mini = false }) {
 
             {!mini && (
               <div className="market-trade">
-                <div className="container-fluid">
+                <div className="container-fluid" style={{paddingLeft:'15px',paddingRight:'15px'}}>
                   <div className="row">
                     <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
                       <div className="market-tab">
@@ -206,10 +206,10 @@ export default function MarketList({ mini = false }) {
                   className="tab-pane fade active show"
                 >
                   <div
-                    className="start-table scrollbar mb-3"
+                    className="start-table scrollbar mb-2"
                     style={{ boxShadow: "none", background: "transparent" }}
                   >
-                    <table className="table">
+                    <table className="table mb-0">
                       <thead>
                         <tr style={{ borderRadius: "30px" }}>
                           <th scope="col" onClick={() => setSortKey("base")}>
@@ -343,7 +343,7 @@ export default function MarketList({ mini = false }) {
                               <td>
                                 <button
                                   type="button"
-                                  className="delete"
+                                  className="delete w-100"
                                   onClick={() => {
                                     dispatch(setExchangeTrading(el));
                                     const pair = `${el.base}-${el.quote}`;

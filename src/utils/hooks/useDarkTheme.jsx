@@ -6,7 +6,9 @@ export default function useDarkTheme() {
   const darkTheme = useSelector(selectDarkTheme);
 
   useEffect(() => {
-    if (parseInt(darkTheme)) {
+    if (parseInt(darkTheme)) { 
+      document.documentElement.style.setProperty("--order-book", "#000000");
+
       document.documentElement.style.setProperty("--border", "#35383F");
       document.documentElement.style.setProperty("--bg1", "#ffffff");
       document.documentElement.style.setProperty("--bg12", "#29292C");
@@ -21,6 +23,7 @@ export default function useDarkTheme() {
       document.documentElement.style.setProperty("--bg1", "#000");
       document.documentElement.style.setProperty("--bs-dark", "#f8f9fa");
     } else {
+      document.documentElement.style.setProperty("--order-book", "#ececec");
       document.documentElement.style.setProperty("--border", "#ececec");
       document.documentElement.style.setProperty("--bg12", "#ffffff");
       document.documentElement.style.setProperty("--bg12", "#ffffff");

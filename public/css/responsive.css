@@ -11,6 +11,10 @@
 /* width: 991px; */
 
 @media screen and (max-width: 61.938em) {
+    .coin-info{display: none;}
+    .latest-news{display: none;}
+    .table-bx{min-height: auto;}
+    .pdn{max-width: 100%;padding-left: 0px!important;padding-right: 0px!important;}
     .wrapper {width: 100%!important;}
     .anounance{border-left: none!important;padding-left: 0px!important;}
     .new-login .login-right-img{display: none;}
@@ -34,7 +38,7 @@
 .security .right-searchbar .external-link i {font-size: 18px;}
 .security .right-searchbar .jrYYEB {width: 278px;}
  .bank-title h3{font-size: 20px;}
- .security .right-searchbar{margin-top: 15px;}
+ .security .right-searchbar{margin-top: 10px;}
  .wallet-overview .account-balance1 {margin-top: 20px;}
  .wallet-overview .account-balance1 .estimated-value {text-align: left;}
  .wallet-overview .account-balance .balance-ac {font-size: 23px;}

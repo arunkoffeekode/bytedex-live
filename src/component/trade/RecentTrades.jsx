@@ -29,7 +29,7 @@ export default function RecentTrades() {
               </ul>
               <div
                 className="start-table scrollbar mt-0"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "440px" }}
               >
                 <table className="table">
                   <thead>

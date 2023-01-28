@@ -183,7 +183,7 @@ export default function OrderBook({ state, setState }) {
 
           <div
             className="start-table"
-           style={{overflow:'hidden'}}
+           style={{overflow:'hidden',margin:'2px 0px 2px 0px'}}
           >
             <table className="table">
               <tbody>

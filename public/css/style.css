@@ -9,6 +9,7 @@
   --text: #000000;
   --footer-text: #ffffff;
   --bg1: #ffffff;
+  --order-book:#ececec;
 }
 
 h1,
@@ -50,8 +51,8 @@ input[data-test="search-input"] {
 .trade-bg{background: var(--bg);border-radius: 10px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
 .container-fluid {
   width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -811,13 +812,13 @@ input[data-test="search-input"] {
 }
 .security h3 {
   float: left;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   text-align: left;
   text-transform: capitalize;
-  line-height: 32px;
+  line-height: 30px;
   color: var(--text);
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 .security .sec-pro .protection {
   width: 100%;
@@ -1109,6 +1110,7 @@ input[data-test="search-input"] {
   line-height: 26px;
   border-top: 0px;
   padding: 15px;
+ 
   border-bottom: none;
 }
 .security .start-table table td .no-record {
@@ -2541,6 +2543,7 @@ input[type="radio"] {
   margin-bottom: 30px;
   margin-top: 50px;
 }
+.pdn{padding-left: 0px;padding-right: 0px;}
 .referral-code .form-control {
   border: none;
   border-radius: 100px;
@@ -3095,7 +3098,7 @@ input[type="radio"] {
   width: 100%;
   position: relative;
   float: left;
-  padding: 20px 0px 10px 0px;
+  padding: 12px 0px 0px 0px;
 }
 .market-trade .market-tab {
   width: 100%;
@@ -3157,7 +3160,7 @@ input[type="radio"] {
   border-radius: 15px;
   padding:15px;
   /* display: inline-flex; */
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .market-box .mark .mark-left {
   width: 50%;
@@ -3464,9 +3467,10 @@ input[type="radio"] {
 } */
 
 .blnce {
+  min-height: 500px;
   background: var(--bg);
-  padding: 20px;
-  margin-bottom: 30px;
+  padding: 15px;
+  margin-bottom: 15px;
   box-shadow: 0px 0px 6.94925px rgb(50 50 71 / 8%),
     0px 0px 13.8985px rgb(50 50 71 / 8%);
   border-radius: 10px;
@@ -3589,5 +3593,6 @@ input[type="radio"] {
 .new-login .frm-section .cyp p{font-size: 13px;font-weight: normal;text-align: left;line-height: 23px;color: var(--text);}
 
 
-.table-bx{width: 100%;position: relative;float: left;padding: 10px;background: var(--bg);border-radius: 15px; box-shadow: 0px 0px 6.94925px rgb(50 50 71 / 8%),
+.table-bx{min-height: 500px;width: 100%;position: relative;float: left;padding: 10px;background: var(--bg);border-radius: 15px; box-shadow: 0px 0px 6.94925px rgb(50 50 71 / 8%),
   0px 0px 13.8985px rgb(50 50 71 / 8%);}
+

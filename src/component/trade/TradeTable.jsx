@@ -56,7 +56,7 @@ function TradeTable() {
                                 "nav-link show" +
                                 (tab === t.key && " active ")
                               }
-                              style={{ fontSize: "16px", fontWeight: "600" }}
+                             
                               onClick={() => {
                                 setTab(t.key);
                               }}
