@@ -111,10 +111,10 @@ function NewPassword() {
       <div className="forgot">
         <div className="container-fluid">
           <div className="row justify-content-center align-items-center">
-            <div className="checkout-form-centre">
+            <div className="checkout-form-centre box-width">
               <h1>Create new password</h1>
               <p>We'll ask for this password whenever you sign in.</p>
-              <div className="checkout-login-step mt-5">
+              <div className="checkout-login-step mt-2">
                 <div id="myTab1Content" className="tab-content">
                   <div
                     id="description"

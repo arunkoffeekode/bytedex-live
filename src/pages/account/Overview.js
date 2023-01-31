@@ -149,7 +149,7 @@ function AccountOverview() {
       <section className="withdraw-discount">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12 colxl-6">
+            <div className="col-lg-6 col-md-6 col-sm-12 colxl-6 gtter">
               <div className="withdraw-discount-white-box">
                 <div className="box-title">Withdrawal Limit Status:</div>
                 <div className="disc-total">
@@ -160,7 +160,7 @@ function AccountOverview() {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12 col-sm-12 colxl-6">
+            <div className="col-lg-6 col-md-6 col-sm-12 colxl-6 gtter">
               <div className="withdraw-discount-white-box">
                 <div className="box-title">Trading Volume Discount</div>
                 <div className="disc-box">
@@ -187,7 +187,7 @@ function AccountOverview() {
       </section>
       <section className="road-map">
         <div className="container-fluid">
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
               <ul className="timeline">
                 <li className="active-tl">Register Account</li>
@@ -217,7 +217,7 @@ function AccountOverview() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
-              <h3>{t("account.overview.loginHistory")}</h3>
+              <h3 className="mb-2">{t("account.overview.loginHistory")}</h3>
             </div>
             <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
               <div className="start-table mb-0">
@@ -263,13 +263,13 @@ function AccountOverview() {
         </div>
       </section>
 
-      <section className="announcements">
+      <section className="announcements pt-0">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
               <div className="start-announcements">
                 <h3>Announcements</h3>
-                <div className="row pt-4">
+                <div className="row pt-2">
                   <div className="col-lg-8 col-md-9 col-xl-8 col-sm-12">
                     <div className="announcements-details">
                       <p>

@@ -104,7 +104,7 @@ function Deposits() {
               <h3>{t("wallet.deposits.link")}</h3>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6">
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xl-3">
             <div className="deposit">
               <form>
                 <div className="drp">
@@ -176,16 +176,16 @@ function Deposits() {
           </div>
 
           {selectedCurrency?.walletType !== "Fiat-Manual" && (
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6">
+            <div className="col-lg-3 col-md-6 col-sm-12 col-xl-3">
               <div className="barcode">
-                <QRCode className="mb-4" value={QRAddress} />
+                <QRCode className="mb-2" value={QRAddress} />
                 <h6>{currencyName}</h6>
               </div>
             </div>
           )}
 
           {selectedCurrency?.walletType !== "Fiat-Manual" && (
-            <div className="mt-4 col-lg-12 col-md-12 col-xl-12 col-sm-12">
+            <div className="col-lg-6 col-md-12 col-xl-6 col-sm-12">
               <div className="deposite-info">
                 <ul>
                   <li>
@@ -217,7 +217,7 @@ function Deposits() {
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
                 <h3>{t("wallet.deposits.link")}</h3>
-                <div className="right-searchbar">
+                <div className="right-searchbar wt">
                   <ExportDataFiles data={deposits} fileName="Deposits" />
                 </div>
               </div>

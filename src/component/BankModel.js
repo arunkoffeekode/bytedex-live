@@ -57,7 +57,7 @@ function BankModel() {
                                         </div>
                                         <label for="inputName">Enter the Verification Code Received by the ru******th@gm***om</label>
                                     </div>
-                                    <div class="form-group col-md-12 mb-5">
+                                    <div class="form-group col-md-12 mb-4">
                                         <label for="inputName">SMS Verification Code</label>
                                         <div class="input-group">
                                             <input type="text" class="form-control frm" placeholder="SMS Verification Code" aria-label="SMS Verification Code" aria-describedby="basic-addon2" />

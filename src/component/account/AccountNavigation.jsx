@@ -10,7 +10,7 @@ export default function AccountNavigation() {
 
   return (
     <div>
-      <div className="open-order">
+      <div className="open-order pb-0">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">

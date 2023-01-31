@@ -102,7 +102,7 @@ function Verification() {
       <div className="forgot">
         <div className="container-fluid">
           <div className="row justify-content-center align-items-center">
-            <div className="checkout-form-centre">
+            <div className="checkout-form-centre box-width">
               <h1>
                 {state?.login && !state?.signup && t("forms.login.title")}
               </h1>
@@ -112,7 +112,7 @@ function Verification() {
               <p>
                 {/* To continue, please enter OTP below to complete verification. */}
               </p>
-              <div className="checkout-login-step mt-5">
+              <div className="checkout-login-step mt-3">
                 <div id="myTab1Content" className="tab-content">
                   <div
                     id="description"

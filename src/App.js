@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Footer from "./component/Footer";
-import Emaillogin from "./pages/Emaillogin.jsOld";
+import Emaillogin from "./pages/Emaillogin.js";
 import ExchangeAccount from "./pages/ExchangeAccount";
 import Forgot from "./pages/Forgot";
 // import Kycverification1 from "./pages/Kycverification1";
@@ -92,7 +92,7 @@ function App() {
     try {
       window.scrollTo({ top: 0, behavior: "smooth" });
       // renewAccessToken();
-    } catch (error) {}
+    } catch (error) { }
   }, [location]);
 
   return (

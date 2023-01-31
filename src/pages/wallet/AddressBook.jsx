@@ -86,7 +86,7 @@ export default function AddressBook() {
             </div>
             <AddAddress />
             <div className="bank-details">
-              <div className="row">
+              <div className="row" style={{alignItems:'center'}}>
                 <div className="col-lg-9 col-md-8 col-xl-9 col-sm-12">
                   <div className="bank-name">
                     <p>{t("wallet.addressBook.description")}</p>
@@ -105,7 +105,7 @@ export default function AddressBook() {
                   </div>
                 </div>
               </div>
-              <div className="row mt-3">
+              <div className="row mt-2">
                 <div className="col-lg-9 col-md-8 col-xl-9 col-sm-12">
                   <div className="bank-name">
                     <p>{t("wallet.addressBook.whitelistDescription")}</p>
@@ -131,7 +131,7 @@ export default function AddressBook() {
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
               <h3>{t("wallet.addressBook.pluralAddresses")}</h3>
               {/* <pre>{JSON.stringify(address, null, 2)}</pre> */}
-              <div className="right-searchbar">
+              <div className="right-searchbar wt">
                 <button type="button" className="external-link">
                   <i className="fa fa-external-link" aria-hidden="true"></i>
                 </button>

@@ -212,7 +212,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                 }) => (
                   <Form onSubmit={handleSubmit}>
                     <div class="form-row">
-                      <div class="form-group col-md-12">
+                      <div class="form-group col-md-12 mb-3">
                         <label for="inputName"> Currency</label>
                         <Field
                           name="currency"
@@ -231,7 +231,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                         </div>
                       </div>
 
-                      <div class="form-group col-md-12">
+                      <div class="form-group col-md-12 mb-3">
                         <label for="inputName">Label</label>
                         <Field name="label" class="form-control" />
                         <div className="text-danger">
@@ -239,7 +239,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                         </div>
                       </div>
 
-                      <div class="form-group col-md-12">
+                      <div class="form-group col-md-12 mb-3">
                         <label for="inputName">Address</label>
                         <Field name="address" class="form-control" />
                         <div className="text-danger">
@@ -247,7 +247,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                         </div>
                       </div>
 
-                      <div class="form-group col-md-12 mb-4">
+                      <div class="form-group col-md-12 mb-3">
                         <label for="inputName">
                           {t(
                             "forms.walletWithdrawal.emailandSMSVerificationCode.placeholder"
@@ -273,7 +273,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                             </button>
                           </div>
                         </div>
-                        <label for="inputName">
+                        <label for="inputName" style={{fontWeight:'200'}}>
                           {t("forms.walletWithdrawal.emailVerificationMsg", {
                             email: profile?.email,
                           })}
@@ -283,7 +283,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                         </div>
                       </div>
 
-                      <div class="form-group col-md-12 mb-5">
+                      <div class="form-group col-md-12 mb-3">
                         <label for="inputName">
                           {t(
                             "forms.walletWithdrawal.smsVerificationCode.placeholder"
@@ -309,7 +309,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                             </button>
                           </div>
                         </div>
-                        <label for="inputName">
+                        <label for="inputName" style={{fontWeight:'200'}}>
                           {t("forms.walletWithdrawal.smsVerificationMsg", {
                             mobileNumber: profile?.mobileNumber,
                           })}
@@ -320,7 +320,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                       </div>
 
                       {profile?.is2FAEnabled && (
-                        <div class="form-group col-md-12">
+                        <div class="form-group col-md-12 mb-3">
                           <label for="inputName">Authenticator Code</label>
                           <Field name="gAuthCode" class="form-control" />
                           <div className="text-danger">
@@ -329,7 +329,7 @@ export default function AddAddress({ onSubmit = () => {} }) {
                         </div>
                       )}
 
-                      <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12 mt-4">
+                      <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12 mt-3">
                         <div className="submit-btn">
                           <button type="submit" className="submit">
                             {t("buttons.submit")}

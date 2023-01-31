@@ -79,7 +79,7 @@ function ExchangeAccount() {
           <div className="row justify-content-center align-items-center">
             <div className="checkout-form-centre">
               <h1>{t("forms.signUp.title")}</h1>
-              <div className="checkout-login-step mt-5">
+              <div className="checkout-login-step mt-3">
                 <div id="myTab1Content" className="tab-content">
                   <div
                     id="description"
@@ -88,8 +88,8 @@ function ExchangeAccount() {
                     className="tab-pane fade active show"
                   >
                     <form>
-                      <div className="form-row">
-                        <div className="form-group col-md-12">
+                      <div className="row">
+                        <div className="form-group col-md-6">
                           <input
                             type="text"
                             className="form-control"
@@ -104,7 +104,7 @@ function ExchangeAccount() {
                             }}
                           />
                         </div>
-                        <div className="form-group col-md-12">
+                        <div className="form-group col-md-6">
                           <input
                             type="text"
                             className="form-control"
@@ -116,7 +116,7 @@ function ExchangeAccount() {
                             }}
                           />
                         </div>
-                        <div className="form-group col-md-12">
+                        <div className="form-group col-md-6">
                           <select
                             className="form-control "
                             onChange={(e) => {
@@ -131,7 +131,7 @@ function ExchangeAccount() {
                             ))}
                           </select>
                         </div>
-                        <div className="form-group col-md-12">
+                        <div className="form-group col-md-6">
                           <input
                             type="text"
                             className="form-control"
@@ -145,7 +145,7 @@ function ExchangeAccount() {
                             }}
                           />
                         </div>
-                        <div className="form-group col-md-12">
+                        <div className="form-group col-md-6">
                           <input
                             type="email"
                             className="form-control"
@@ -157,7 +157,7 @@ function ExchangeAccount() {
                             onChange={(e) => setEmail(e.target.value)}
                           />
                         </div>
-                        <div className="form-group col-md-12">
+                        <div className="form-group col-md-6">
                           <input
                             type={showPassword ? "text" : "password"}
                             id="txtPassword"
@@ -179,7 +179,7 @@ function ExchangeAccount() {
                           Password must be no less than 7 characters including
                           uppercase & lowercase letters
                         </p>
-                        <div className="form-group col-md-12">
+                        <div className="form-group col-md-6">
                           <input
                             type={showConfirmPassword ? "text" : "password"}
                             id="txtPassword"
@@ -200,7 +200,7 @@ function ExchangeAccount() {
                           </button>
                         </div>
 
-                        <div className="form-group col-md-12 mb-0">
+                        <div className="form-group col-md-6 mb-0">
                           <button
                             type="button"
                             className="forgot-btn"

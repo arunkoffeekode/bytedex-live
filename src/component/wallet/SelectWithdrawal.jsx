@@ -204,7 +204,7 @@ export default function SelectWithdrawal() {
               <h3>{t("wallet.withdrawals.link")}</h3>
             </div>
           </div>
-          <div className="col-lg-5 col-md-12 col-sm-12 col-xl-5">
+          <div className="col-lg-3 col-md-12 col-sm-12 col-xl-3 gtter">
             <div className="withdraw-left">
               <h6>
                 {t("wallet.withdrawals.withdrawalLimitStatus")} 0 / 0.00001 BTC
@@ -273,21 +273,18 @@ export default function SelectWithdrawal() {
               </div>
             </div>
           </div>
-          <div className="col-lg-7 col-md-12 col-sm-12 col-xl-7">
+          <div className="col-lg-5 col-md-12 col-sm-12 col-xl-5 gtter">
             <AddAddress
               onSubmit={(values) => {
                 console.log("address book value", values);
               }}
             />
             <div className="withdraw-right">
-              <p>
-                {/* You may select an address from your address book to fill in
-                relevant fields in the form. */}
-              </p>
+             
               <form>
                 <div className="form-row">
-                  <div className="form-group col-md-12">
-                    <div className="input-group mb-3 mt-3">
+                  <div className="form-group col-md-12 mb-4">
+                    <div className="input-group ">
                       <select
                         className="form-control"
                         onChange={(e) => {
@@ -326,7 +323,7 @@ export default function SelectWithdrawal() {
                     </div>
                   </div>
 
-                  <div className="form-group col-md-12">
+                  <div className="form-group col-md-12 mb-4">
                     <label for="inputName">
                       {t("wallet.withdrawals.addressLabel")}
                     </label>
@@ -340,7 +337,7 @@ export default function SelectWithdrawal() {
                       }}
                     />
                   </div>
-                  <div className="form-group col-md-12">
+                  <div className="form-group col-md-12 mb-4">
                     <label for="inputName">
                       {t("wallet.withdrawals.amountLabel")}
                     </label>
@@ -420,7 +417,7 @@ export default function SelectWithdrawal() {
                       </button>
                       {/* </div> */}
                     </div>
-                    <label for="inputName lowercase">
+                    <label for="inputName lowercase" style={{fontSize:'14px',fontWeight:'300',marginTop:'5px'}}>
                       {t("forms.walletWithdrawal.emailVerificationMsg", {
                         email: profile?.email,
                       })}
@@ -464,7 +461,7 @@ export default function SelectWithdrawal() {
                   )}
 
                   {profile?.is2FAEnabled && (
-                    <div class="form-group col-md-12 mb-5">
+                    <div class="form-group col-md-12">
                       <label for="inputName">Authenticator Code</label>
                       <input
                         type="text"
@@ -482,7 +479,7 @@ export default function SelectWithdrawal() {
               </form>
             </div>
           </div>
-          <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+          <div className="col-lg-4 col-md-12 col-sm-12 col-xl-4 gtter">
             <div className="bank-details">
               <div className="row">
                 <div className="col-lg-9 col-md-8 col-xl-9 col-sm-12">

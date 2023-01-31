@@ -89,14 +89,14 @@ function ExchangeToken() {
 
   return (
     <div>
-      <section className="security pt-0">
+      <section className="security pt-2">
         <div className="container-fluid">
-          <div className="row">
+          <div className="row" style={{ alignItems: 'center' }}>
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
               <h3>{t("account.feeDiscount.title")}</h3>
               <ToastContainer />
             </div>
-            <div className="col-lg-7 col-md-9 col-sm-12 col-xl-7 mt-4">
+            <div className="col-lg-7 col-md-9 col-sm-12 col-xl-7 mt-2">
               <h3>
                 {t("account.feeDiscount.payInToken", { exchangeToken: "BEXT" })}
               </h3>

@@ -112,7 +112,7 @@ export default function Banks() {
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
               <h3>{t("wallet.banks.bankAccounts")}</h3>
               {/* <pre>{JSON.stringify(banks, null, 2)}</pre> */}
-              <div className="right-searchbar">
+              <div className="right-searchbar wt">
                 <button type="button" className="external-link">
                   <i className="fa fa-external-link" aria-hidden="true"></i>
                 </button>
@@ -129,7 +129,7 @@ export default function Banks() {
               </div>
             </div>
             <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
-              <div className="start-table">
+              <div className="start-table mb-0">
                 <table className="table">
                   <thead>
                     <tr style={{ borderRadius: "30px" }}>

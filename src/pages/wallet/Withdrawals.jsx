@@ -145,7 +145,7 @@ function Withdrawals() {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
               <h3>{t("wallet.withdrawals.history")}</h3>
-              <div className="right-searchbar">
+              <div className="right-searchbar wt">
                 <div class="dropdown">
                   <button
                     type="button"

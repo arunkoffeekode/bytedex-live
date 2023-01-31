@@ -144,7 +144,7 @@ export default function WalletOverview() {
             <div className="wallet-overview">
               <h3>{t("wallet.overview.link")}</h3>
               <div className="row">
-                <div className="col-lg-8 col-md-12 col-xl-8 col-sm-12">
+                <div className="col-lg-8 col-md-6 col-xl-8 col-sm-12">
                   <div className="account-balance">
                     <p>{t("wallet.overview.portfolio")}</p>
                     <div className="balance-ac">
@@ -152,7 +152,7 @@ export default function WalletOverview() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-12 col-xl-4 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-xl-4 col-sm-12">
                   <div className="account-balance1">
                     <div className="estimated-value">
                       ≈ {numeral(getPortfolioValues().fiat).format("0.00")}{" "}
@@ -171,7 +171,7 @@ export default function WalletOverview() {
         </div>
       </div>
 
-      <section className="security pt-3">
+      <section className="security pt-0">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
@@ -206,7 +206,7 @@ export default function WalletOverview() {
                   {t("tables.walletOverview.lowBalances")}
                 </label>
               </div>
-              <div className="right-searchbar">
+              <div className="right-searchbar mb-2">
                 <button type="button" className="external-link">
                   <i className="fa fa-external-link" aria-hidden="true"></i>
                 </button>
@@ -224,7 +224,7 @@ export default function WalletOverview() {
             {/* <pre>{JSON.stringify(baseFiat, null, 2)}</pre> */}
 
             <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
-              <div className="start-table">
+              <div className="start-table mb-0">
                 <table className="table">
                   <thead>
                     <tr style={{ borderRadius: "30px" }}>

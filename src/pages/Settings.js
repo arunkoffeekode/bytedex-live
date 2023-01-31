@@ -39,6 +39,8 @@ function Settings() {
               <div className="setting-title">
                 <h3>{t("settings.title")}</h3>
               </div>
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6 gtter ">
               <div className="setting-box">
                 <form>
                   <div className="form-row">
@@ -61,7 +63,8 @@ function Settings() {
                   </div>
                 </form>
               </div>
-
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6 gtter ">
               <div className="setting-box">
                 <form>
                   <div className="form-row">
@@ -94,6 +97,8 @@ function Settings() {
                   </div>
                 </form>
               </div>
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6 gtter ">
               <div className="setting-box">
                 <form>
                   <div className="form-row">
@@ -123,6 +128,8 @@ function Settings() {
                   </div>
                 </form>
               </div>
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6 gtter ">
               <div className="setting-box">
                 <form>
                   <div className="form-row">
@@ -166,6 +173,8 @@ function Settings() {
                   </div>
                 </form>
               </div>
+              </div>
+              <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12 gtter ">
               <div className="setting-box">
                 <form>
                   <div className="form-row">
@@ -230,9 +239,10 @@ function Settings() {
                   </div>
                 </form>
               </div>
+              </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </section>
     </div>
   );

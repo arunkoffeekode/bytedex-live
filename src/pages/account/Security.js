@@ -260,14 +260,14 @@ function Security() {
                     onClick={() =>
                       profile?.isMobileVerified
                         ? navigate("/phoneVerification", {
-                            state: {
-                              MobileVerify: "Disable",
-                              mobileNumber: profile?.mobileNumber,
-                            },
-                          })
+                          state: {
+                            MobileVerify: "Disable",
+                            mobileNumber: profile?.mobileNumber,
+                          },
+                        })
                         : navigate("/phoneVerification", {
-                            state: { MobileVerify: "verify" },
-                          })
+                          state: { MobileVerify: "verify" },
+                        })
                     }
                   >
                     {profile?.isMobileVerified
@@ -338,7 +338,7 @@ function Security() {
           </div>
         </div>
       </section>
-      <section className="security pt-0">
+      <section className="security pt-0 mb-0">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">

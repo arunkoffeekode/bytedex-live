@@ -134,7 +134,7 @@ function ChangePassModel() {
                         </span>
                       </div>
                       {profile?.is2FAEnabled ? (
-                        <div className="form-group col-md-12 mb-5">
+                        <div className="form-group col-md-12 mb-4">
                           <label for="inputName">
                             {t("forms.changePassword.otp.gAuthPlaceholder")}
                           </label>
@@ -150,7 +150,7 @@ function ChangePassModel() {
                           />
                         </div>
                       ) : (
-                        <div className="form-group col-md-12 mb-5">
+                        <div className="form-group col-md-12 mb-2">
                           <label for="inputName">
                             {t("forms.changePassword.otp.emailPlaceholder")}
                           </label>

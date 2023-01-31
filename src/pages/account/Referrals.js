@@ -54,8 +54,8 @@ function Referrals() {
     <div>
       <section className="referral">
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6">
+          <div className="row" style={{alignItems:'center'}}>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xl-6">
               <div className="referral-first">
                 <h1>{t("account.affiliates.title")}</h1>
                 <ToastContainer />
@@ -64,7 +64,7 @@ function Referrals() {
                 <p>{t("account.affiliates.multipleTiers")}</p>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xl-6">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xl-6">
               <div className="referral-second">
                 <img src="/images/referral.png"></img>
               </div>
@@ -121,7 +121,7 @@ function Referrals() {
               <div className="referral-box">
                 <h4>{t("account.affiliates.tiers")}</h4>
                 <div className="row">
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.rLevel1")}</h3>
                       <div className="free-share">
@@ -134,7 +134,7 @@ function Referrals() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.rLevel2")}</h3>
                       <div className="free-share">
@@ -148,7 +148,7 @@ function Referrals() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.rLevel3")}</h3>
                       <div className="free-share">
@@ -171,28 +171,28 @@ function Referrals() {
               <div className="referral-box pt-0 pb-0">
                 <h4>{t("account.affiliates.earnings")}</h4>
                 <div className="row">
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.allTime")}</h3>
                       <div className="free-share">~0 BTC</div>
                       <div className="referral-name">~$0.00</div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.60d")}</h3>
                       <div className="free-share">~0 BTC</div>
                       <div className="referral-name">~$0.00</div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.90d")}</h3>
                       <div className="free-share">~0 BTC</div>
                       <div className="referral-name">~$0.00</div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3">
+                  <div className="col-lg-3 col-md-4 col-sm-12 col-xl-3 col-6 gtter">
                     <div className="black-board">
                       <h3>{t("account.affiliates.120d")}</h3>
                       <div className="free-share">~0 BTC</div>

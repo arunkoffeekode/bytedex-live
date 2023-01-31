@@ -40,7 +40,7 @@ function TradeHistory() {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xl-12">
               <h3>{t("orders.tradeHistory.link")}</h3>
-              <div className="right-searchbar">
+              <div className="right-searchbar wt">
                 {!!history?.length && (
                   <ExportDataFiles data={history} fileName="TradeHistory" />
                 )}

@@ -236,10 +236,11 @@
   font-size: 14px;
   font-weight: normal;
   text-align: center;
-  border-bottom: 1px solid #111111;
+  border-bottom: none;
+  /* border-bottom: 1px solid #111111; */
   line-height: 26px;
   border-top: 0px;
-  padding: 7px 10px;
+  padding: 4px 10px;
 }
 
 .coin-left-section .start .start-table table td .text-green {
@@ -421,7 +422,7 @@
 
 .buy-btn {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .buy-btn .buy {
   width: 100%;

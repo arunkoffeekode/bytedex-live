@@ -135,7 +135,7 @@ function PhoneVerification() {
           <div className="row justify-content-center align-items-center">
             <div className="checkout-form-centre">
               <div
-                className="checkout-login-step mt-5"
+                className="checkout-login-step"
                 style={{ borderRadius: "28px" }}
               >
                 <div id="myTab1Content" className="tab-content">
@@ -143,7 +143,7 @@ function PhoneVerification() {
                     id="description"
                     role="tabpanel"
                     aria-labelledby="description-tab"
-                    className="tab-pane fade active show"
+                    className="tab-pane p-0 fade active show"
                   >
                     <form>
                       <div className="form-row">
@@ -242,13 +242,13 @@ function PhoneVerification() {
                                 phoneverifytoken && smsotp
                                   ? DeletePhoneVerificationStep2()
                                   : errorToast(
-                                      t(
-                                        `account.phoneVerification.smsVerificationMsg`,
-                                        {
-                                          mobileNumber: "",
-                                        }
-                                      )
+                                    t(
+                                      `account.phoneVerification.smsVerificationMsg`,
+                                      {
+                                        mobileNumber: "",
+                                      }
                                     )
+                                  )
                               }
                             >
                               {t("account.phoneVerification.disable")}
@@ -261,13 +261,13 @@ function PhoneVerification() {
                                 phoneverifytoken && smsotp
                                   ? PhoneVerifyStep2()
                                   : errorToast(
-                                      t(
-                                        `account.phoneVerification.smsVerificationMsg`,
-                                        {
-                                          mobileNumber: "",
-                                        }
-                                      )
+                                    t(
+                                      `account.phoneVerification.smsVerificationMsg`,
+                                      {
+                                        mobileNumber: "",
+                                      }
                                     )
+                                  )
                               }
                             >
                               {t("account.phoneVerification.enable")}
