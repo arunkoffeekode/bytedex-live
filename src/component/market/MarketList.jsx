@@ -147,7 +147,7 @@ export default function MarketList({ mini = false }) {
               <div className="right-searchbar">
                 <ReactSearchAutocomplete
                   items={market}
-                  showIcon={false}
+                  showIcon={true}
                   fuseOptions={{ keys: ["base", "quote"] }}
                   placeholder={t("forms.common.search")}
                   onSelect={handleOnSelect}
@@ -206,7 +206,7 @@ export default function MarketList({ mini = false }) {
                   className="tab-pane fade active show"
                 >
                   <div
-                    className="start-table scrollbar mb-2"
+                    className="start-table scrollbar410 mb-2"
                     style={{ boxShadow: "none", background: "transparent" }}
                   >
                     <table className="table mb-0">

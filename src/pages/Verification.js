@@ -112,7 +112,7 @@ function Verification() {
               <p>
                 {/* To continue, please enter OTP below to complete verification. */}
               </p>
-              <div className="checkout-login-step mt-3">
+              <div className="checkout-login-step mt-1">
                 <div id="myTab1Content" className="tab-content">
                   <div
                     id="description"

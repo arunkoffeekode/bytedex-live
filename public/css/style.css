@@ -415,6 +415,7 @@ input[data-test="search-input"] {
 .forgot .checkout-form-centre .checkout-login-step {
   max-width: 100%;
   float: left;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 28px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2),
@@ -1036,7 +1037,13 @@ input[data-test="search-input"] {
 }
 .open-order .open-button {
   width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
+.open-order .open-button::-webkit-scrollbar {
+  display: none;
+}
+
 .open-order .open-button ul {
   margin: 0px;
   padding: 0px;
@@ -2960,7 +2967,7 @@ input[type="radio"] {
   border: 0.782084px solid var(--border);
   background: var(--bg);
   border-radius: 15px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .token-launch .launch .launch-step .launch-title {
   background: var(--bg);
@@ -2972,11 +2979,11 @@ input[type="radio"] {
   padding: 20px;
 }
 .token-launch .launch .launch-step .launch-title h2 {
-  font-size: 23px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   text-align: left;
   text-transform: capitalize;
-  line-height: 32px;
+  line-height: 30px;
   color: var(--text);
 }
 .token-launch .launch .launch-step .launch-details {
@@ -3031,7 +3038,7 @@ input[type="radio"] {
 }
 .token-launch .launch .launch-step .launch-details label {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: normal;
   text-align: left;
   color: var(--text);
 }
@@ -3039,7 +3046,7 @@ input[type="radio"] {
   background: transparent;
   font-size: 16px;
   font-weight: 500;
-  color: var(--bg);
+  color:#ffffff;
   text-align: center;
   border: none;
   outline: none;
@@ -3078,7 +3085,7 @@ input[type="radio"] {
 }
 .token-launch .launch .launch-step .launch-details p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: normal!important;
   text-align: left;
   line-height: 26px;
   color: var(--text);
@@ -3092,7 +3099,7 @@ input[type="radio"] {
   outline: none;
   padding: 10px 30px;
   text-align: center;
-  color: var(--bg);
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;
@@ -3107,7 +3114,7 @@ input[type="radio"] {
 }
 .token-launch .launch .launch-step .launch-details .usdt-avex-details {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   margin: 20px 0px 20px 0px;
 }
 .token-launch
@@ -3124,7 +3131,7 @@ input[type="radio"] {
 }
 .token-launch .launch .launch-step .launch-details .usdt-avex-details .used {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: left;
   color: #181a20;
 }
@@ -3231,9 +3238,9 @@ input[type="radio"] {
 .market-box .owl-nav {
   display: none;
 }
-.mobile-res {
+/* .mobile-res {
   display: none;
-}
+} */
 
 .bytetraders .market-tab12 .nav-pills .nav-link,
 .market-trade .nav-tabs .nav-link {
@@ -3525,7 +3532,7 @@ input[type="radio"] {
 }
 @media only screen and (max-width: 425px) {
   #tv_chart_container {
-    height: 500px;
+    height: 300px;
   }
 }
 .scrollbar::-webkit-scrollbar-track {
@@ -3634,3 +3641,25 @@ input[type="radio"] {
   0px 0px 13.8985px rgb(50 50 71 / 8%);}
 
 .box-width{max-width: 500px!important;}
+
+/* .start-table-scroll-bar */
+.start-table::-webkit-scrollbar-track {
+  border-radius: 30px;
+  background: transparent;
+  width: 0px;
+  height: 3px;
+}
+.start-table::-webkit-scrollbar {
+  background: transparent;
+  width: 3px;
+  height: 8px;
+}
+.start-table::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: #2c6fe1;
+}
+.scrollbar410 {
+  overflow-x: scroll;
+  padding: 3px;
+}
+.security .start-table table td .no-record p{font-size: 17px;font-weight: 500;text-align: center;margin-top: 10px;color: var(--text);}

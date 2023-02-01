@@ -148,12 +148,16 @@ export default function PairSelection({
       {base && quote && (
         <div className="">
           <div className="usdt-avex-details">
-            <span className="fs-3">
+            <div className="row">
+              <div className="col-md-6">
+            <span style={{fontSize:'16px'}}>
               {t("instaTrade.estimate", {
                 currency: quote?.currency,
               })}{" "}
               {transaction.price} {} {base?.currency}
             </span>
+            </div>
+            <div className="col-md-6">
             <div className="name-used">{t("instaTrade.youHave")}</div>
             <div className="used">
               <span className="p-1">
@@ -163,6 +167,8 @@ export default function PairSelection({
               <span className="p-1">
                 {base?.balance} {base?.currency}
               </span>
+            </div>
+            </div>
             </div>
           </div>
         </div>

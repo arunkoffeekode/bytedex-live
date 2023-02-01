@@ -146,10 +146,10 @@ export default function Banks() {
                         <td colSpan={9}>
                           <div className="no-record">
                             <img
-                              src="/images/bank.png"
+                              src="/images/no-record.png"
                               alt="bank"
-                              style={{ width: "350px" }}
                             ></img>
+                            <p>There are currently no bank accounts saved.</p>
                           </div>
                         </td>
                       </tr>

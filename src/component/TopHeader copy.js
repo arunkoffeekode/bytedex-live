@@ -95,7 +95,114 @@ function TopHeader() {
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 col-xl-5">
               <div className="register">
-              
+                <div className="mobile-res">
+                  <ul>
+                    <li className="top-cart">
+                      <Link to={links.notification} id="cart" className="crl">
+                        <img src="/images/bell.png" alt="" />
+                      </Link>
+                    </li>
+                    <li>
+                      <button className="btn btn-mobile" data-toggle="collapse">
+                        <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    {authed ? (
+                      <li className="top-cart">
+                        <Link to={links.account}>
+                          <div className="circle">
+                            <img
+                              className="rounded-circle"
+                              src="/images/bg.png"
+                              alt=""
+                            />
+                          </div>
+                        </Link>
+                        <div className="account-dropdown">
+                          <div className="avtar-section">
+                            <p>
+                              Hello,
+                              <br />
+                              <span className="text-wrap">
+                                {profile?.firstName} {profile?.lastName}
+                              </span>
+                            </p>
+                            {/* <div className="circle">
+                              <img
+                                className="rounded-circle"
+                                src="/images/bg.png"
+                                alt=""
+                              />
+                            </div> */}
+                          </div>
+                          <div className="login-details">
+                            <ul>
+                              <li>
+                                <Link to={links.account}>
+                                  <img
+                                    src="/images/dashboard.png"
+                                    alt=""
+                                    className="lu"
+                                  />
+                                  Dashboard
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to={links.accountSecurity}>
+                                  <img
+                                    src="/images/security.png"
+                                    alt=""
+                                    className="lu"
+                                  />
+                                  Security
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to={links.settings}>
+                                  <img
+                                    src="/images/setting-blue.png"
+                                    alt=""
+                                    className="lu"
+                                  />
+                                  Setting
+                                </Link>
+                              </li>
+                              <li>
+                                <div className="logout">
+                                  <Link
+                                    to={links.login}
+                                    onClick={() => {
+                                      dispatch(logout());
+                                      navigate(links.login);
+                                    }}
+                                  >
+                                    <img
+                                      src="/images/logout.png"
+                                      alt=""
+                                      className="lu"
+                                    />
+                                    {t("navbar.links.logout")}
+                                  </Link>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    ) : (
+                      <li>
+                        <Link
+                          type="button"
+                          to={links.login}
+                          className="btn btn-primary px-4 rounded-pill"
+                        >
+                          {t("navbar.links.login")}
+                        </Link>
+                      </li>
+                    )}
+                  </ul>
+                </div>
 
                 <div className="desk">
                   <ul>
@@ -210,7 +317,7 @@ function TopHeader() {
                         <Link
                           type="button"
                           to={links.login}
-                          className="btn btn-primary px-3 rounded-pill"
+                          className="btn btn-primary px-4 rounded-pill"
                         >
                           {t("navbar.links.login")}
                         </Link>
@@ -220,7 +327,32 @@ function TopHeader() {
                 </div>
               </div>
 
-             
+              <div className="collapse mobile-device" id="collapseExample">
+                <ul>
+                  <li className="top-cart search">
+                    <form id="formbase">
+                      <label className="searchbox">
+                        <input className="searchfield" type="search" />
+                      </label>
+                    </form>
+                  </li>
+                  <li className="top-cart">
+                    <a href="#" id="cart" className="crl">
+                      <img src="/images/headphone.png" alt="" />
+                    </a>
+                  </li>
+                  <li className="top-cart">
+                    <a href="#" id="cart" className="crl">
+                      <img src="/images/setting.png" alt="" />
+                    </a>
+                  </li>
+                  <li className="top-cart">
+                    <a href="#" id="cart" className="crl">
+                      <img src="/images/light.png" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

@@ -79,7 +79,7 @@ function ExchangeAccount() {
           <div className="row justify-content-center align-items-center">
             <div className="checkout-form-centre">
               <h1>{t("forms.signUp.title")}</h1>
-              <div className="checkout-login-step mt-3">
+              <div className="checkout-login-step mt-1">
                 <div id="myTab1Content" className="tab-content">
                   <div
                     id="description"

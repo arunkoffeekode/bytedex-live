@@ -223,7 +223,7 @@ function Deposits() {
               </div>
 
               <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
-                <div className="start-table overflow-auto">
+                <div className="start-table mb-0">
                   <table className="table">
                     <thead>
                       <tr style={{ borderRadius: "30px" }}>
@@ -252,6 +252,7 @@ function Deposits() {
                                 src="/images/no-record.png"
                                 alt="No Records Found"
                               ></img>
+                               <p>No records found</p>
                             </div>
                           </td>
                         </tr>
@@ -310,6 +311,7 @@ function Deposits() {
                             <td colSpan={9}>
                               <div className="no-record">
                                 <img src="/images/no-record.png"></img>
+                                <p>No records found</p>
                               </div>
                             </td>
                           </tr>

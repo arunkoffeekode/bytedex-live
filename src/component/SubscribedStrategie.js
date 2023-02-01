@@ -21,6 +21,7 @@ function SubscribedStrategie() {
               <td colSpan={9}>
                 <div className="no-record">
                   <img src="images/no-record.png"></img>
+                  <p>No records found</p>
                 </div>
               </td>
             </tr>

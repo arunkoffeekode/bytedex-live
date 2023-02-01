@@ -96,6 +96,7 @@ function OrderHistory() {
                               src="/images/no-record.png"
                               alt="No Records Found"
                             ></img>
+                             <p>No records found</p>
                           </div>
                         </td>
                       </tr>
@@ -128,6 +129,7 @@ function OrderHistory() {
                               src="/images/no-record.png"
                               alt="No Records Found"
                             ></img>
+                             <p>No records found</p>
                           </div>
                         </td>
                       </tr>
@@ -183,6 +185,7 @@ function OrderHistory() {
                                 src="/images/no-record.png"
                                 alt="No Records Found"
                               ></img>
+                               <p>No records found</p>
                             </div>
                           </td>
                         </tr>
