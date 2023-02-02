@@ -3573,9 +3573,9 @@ input[type="radio"] {
 .new-login .login-left-section .sign-link{font-size: 15px;font-weight: normal;text-align: left;color: var(--text);line-height: 25px;}
 .new-login .login-left-section .sign-link a{color: #2C6FE1;font-weight: 600;}
 .new-login .login-right-img{width: 35%;}
-.new-login .login-right-img img{width: 100%;}
+.new-login .login-right-img img{width: 100%;height: 100%;}
 .new-login .frm-section{width: 100%;position: relative;float: left;margin-top: 30px;}
-.new-login .frm-section h2{font-size: 25px;font-weight: 700;text-align: left;text-transform: capitalize;line-height: 30px;  color: var(--text);margin-bottom: 10px;}
+.new-login .frm-section h2{font-size: 25px;font-weight: 600;text-align: left;text-transform: capitalize;line-height: 30px;  color: var(--text);margin-bottom: 10px;}
 .new-login .frm-section p{font-size: 15px;font-weight: normal;text-align: left;line-height: 25px;color: var(--text);}
 .new-login .frm-section .form-group .form-control {
   border: 1px solid #bbbccb;
@@ -3593,20 +3593,20 @@ input[type="radio"] {
   box-shadow: none;
 }
 .start-form{margin-top: 30px;float: left;position: relative;width: 100%;}
-.start-form .form-group{margin-bottom: 20px;}
+.start-form .form-group{margin-bottom: 20px;position: relative;}
 .new-login .frm-section .form-group .toggle {
   background: none;
   border: none;
   color: #337ab7;
   font-weight: 600;
   position: absolute;
-  right: 37px;
+  right: 40px;
   outline: none;
   z-index: 9;
   width: 0px;
   height: 0px;
   /* top: 114px; */
-  top: 83px;
+  top: 13px;
 
 }
 .new-login .frm-section a{float: left;font-size: 16px;font-weight: normal;text-align: left;line-height: 26px;color: var(--text);}
@@ -3663,3 +3663,23 @@ input[type="radio"] {
   padding: 3px;
 }
 .security .start-table table td .no-record p{font-size: 17px;font-weight: 500;text-align: center;margin-top: 10px;color: var(--text);}
+
+.new-login .frm-section select {
+  border: 1px solid #1a1e23;
+  height: 50px !important;
+  background-image: linear-gradient(45deg, transparent 50%, #2c6fe1 60%),
+    linear-gradient(135deg, #2c6fe1 40%, transparent 50%) !important;
+  background-position: calc(100% - 30px) 16px, calc(100% - 20px) 16px, 100% 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 100px;
+  background-size: 10px 10px, 10px 10px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: var(--text);
+  color: var(--text);
+  outline: none;
+}

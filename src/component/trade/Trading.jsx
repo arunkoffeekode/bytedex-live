@@ -74,8 +74,8 @@ export default function Trading({ state, setState }) {
     <div>
       <div className="row">
         <div className="col-lg-12 col-md-12 col-xl-12 col-sm-12">
-          <div className="trade-tab d-flex justify-content-between align-items-center">
-            <div>
+          <div className="trade-tab">
+            <div style={{float:'left'}}>
               {/* {["LIMIT", "MARKET", "STOP"].map((el) => ( */}
               {tradeModes.map((el, key) => (
                 <button
@@ -94,7 +94,7 @@ export default function Trading({ state, setState }) {
               className="btn-sm"
               data-toggle="modal"
               data-target="#tradingRuleModal"
-            >
+            style={{float:'right'}}>
               Trading Rules
             </button>
           </div>
