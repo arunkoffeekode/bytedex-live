@@ -20,7 +20,7 @@ function Header() {
     <div>
       <div id="navbar_top" className="header-item-center">
         <nav className="navbar navbar-default navbar-trans navbar-expand-lg">
-          <div className="container-fluid">
+          <div className="container-fluid" style={{maxWidth:'100%'}}>
             <button
               className="navbar-toggler collapsed"
               type="button"

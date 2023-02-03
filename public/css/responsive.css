@@ -11,6 +11,7 @@
 /* width: 991px; */
 
 @media screen and (max-width: 61.938em) {
+    .token-launch .launch .launch-step .launch-details{padding: 15px;}
  .navbar-default{padding-top: 8px!important;padding-bottom: 8px!important;}
     .coin-info{display: none;}
     .latest-news{display: none;}

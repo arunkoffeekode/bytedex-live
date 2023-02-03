@@ -53,7 +53,7 @@ function TopHeader() {
   return (
     <div>
       <section className="top-section">
-        <div className="container-fluid">
+        <div className="container-fluid" style={{maxWidth:'100%'}}>
           <div className="row">
             <div className="col-lg-7 col-md-12 col-sm-12 col-xl-7">
               <div className="drp-section">
